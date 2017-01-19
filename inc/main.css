@@ -31,7 +31,7 @@ IMG {
 
 HR {
   border: none 0;
-  border-top: 1pt solid #555555; /* the border */
+  border-top: 1pt solid #E1E1E1; /* the border */
   height: 1pt; /* whatever the total width of the border-top and border-bottom equal */
 }
 
@@ -157,6 +157,10 @@ H2 {
   margin-left: 0;
 }
 
+.nsi-header UL LI.social {
+  display: none;
+}
+
 .nsi-header UL LI A:link,
 .nsi-header UL LI A:visited {
   color: #374E54;
@@ -212,6 +216,34 @@ H2 {
 .nsi-header UL LI UL LI A:active {
   border-bottom: 0;
   color: #FFFFFF;
+}
+
+.banner {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner:before {
+  content: "";
+  display: block;
+  padding-top: 22.9166%; /* 275px */
+}
+
+.banner H2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 44px;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
 }
 
 .cycle-slideshow {
@@ -441,6 +473,10 @@ H2 {
   margin-left: 0;
 }
 
+.nsi-footer .footer-menu UL LI.social {
+  display: none;
+}
+
 .nsi-footer .footer-menu UL LI A:link,
 .nsi-footer .footer-menu UL LI A:visited {
   color: #374E54;
@@ -456,6 +492,65 @@ H2 {
 .nsi-footer .footer-menu UL LI UL {
   display: none;
 }
+
+.copybox {
+  margin-top: 1em;
+  padding: 1.5em;
+  box-sizing: border-box;
+  background: #374E54;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.programs {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 2.5em;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1.4em;
+}
+
+.programs H3 {
+  margin: 0 0 0.1em;
+  color: #374E54;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 30px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+.programs UL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 15px;
+  line-height: 1em;
+}
+
+.programs UL LI {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 1em 0;
+  height: 2em;
+  position: relative;
+}
+
+.programs UL LI A {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+
 
 
 
@@ -493,7 +588,17 @@ H2 {
   }
 }
 
+@media only screen and (max-width: 1100px) {
+  .programs {
+    width: 96%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
+  .banner H2 {
+    font-size: 4.4vw;
+  }
+
   .home-left H1 {
     font-size: 44px;
   }
@@ -524,10 +629,18 @@ H2 {
     text-align: center;
     padding: 0.75em 0;
   }
+
+  .programs UL LI {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   /* Small tablet */
+  .menu-top {
+    display: none;
+  }
+
   .nsi-header UL {
     display: none;
   }
@@ -572,6 +685,29 @@ H2 {
     padding: 0.5em 2%;
   }
 
+  .nsi-header UL LI.social {
+    display: block;
+    text-align: center;
+  }
+
+  .nsi-header UL LI.social A:link,
+  .nsi-header UL LI.social A:visited {
+    margin: 0 0.3em;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.65em;
+    text-align: center;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #374E54;
+  }
+
+  .nsi-header UL LI.social A:hover,
+  .nsi-header UL LI.social A:active {
+    background: #80E6EC;
+  }
+
   .nsi-header UL LI A:link,
   .nsi-header UL LI A:visited {
     color: #FFFFFF;
@@ -593,6 +729,18 @@ H2 {
     padding: 0.1em 0;
   }
 
+  .banner:before {
+    padding-top: 30%;
+  }
+
+  .banner H2 {
+    font-size: 5.4vw;
+  }
+
+  .cycle-slideshow > DIV {
+    height: 325px;
+  }
+
   .home-left,
   .home-right {
     float: none;
@@ -610,8 +758,23 @@ H2 {
     width: 100%;
     font-size: 33px;
   }
+
+  .programs UL LI {
+    float: none;
+    width: 100%;
+    text-align: left;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   /* Phone */
+  .cycle-slideshow > DIV {
+    height: 250px;
+  }
+
+  .home-right {
+    font-size: 20px;
+    padding: 1em 0 1em 1.5em;
+  }
 }
