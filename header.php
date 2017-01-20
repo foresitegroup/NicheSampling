@@ -1,3 +1,11 @@
+<?php
+function email($address, $name="") {
+  $email = "";
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,12 +23,18 @@
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:500,700,900|Rubik+One" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css">
+    <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
+
+        $(".programs-sidebar [href]").each(function() {
+        if (this.href == window.location.href) {
+          $(this).addClass("current");
+        }
+        });
       });
     </script>
   </head>

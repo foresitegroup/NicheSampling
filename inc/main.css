@@ -54,6 +54,197 @@ H2 {
   font-size: 1.5em;
 }
 
+UL, OL {
+  margin: 0 0 0 0.6em;
+  padding: 0 0 0 0.6em;
+}
+
+.double-spaced LI {
+  padding-bottom: 0.5em;
+}
+
+INPUT[type="text"],
+INPUT[type="email"],
+INPUT[type="password"],
+TEXTAREA,
+SELECT {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #2B898F;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.1em 0;
+  background: #FFFFFF;
+  color: #252525;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 17px;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  margin-bottom: 2em;
+}
+
+TEXTAREA {
+  padding: 0.9em 1em;
+  height: 10em;
+}
+
+INPUT[type="text"].note,
+.select.note {
+  margin-bottom: 0;
+}
+
+INPUT::-webkit-input-placeholder { color: #252525; uppercase; opacity: 1; }
+INPUT:-moz-placeholder { color: #252525; uppercase; opacity: 1; } /* FF 4-18 */
+INPUT::-moz-placeholder { color: #252525; uppercase; opacity: 1; } /* FF 19+ */
+INPUT:-ms-input-placeholder { color: #252525; uppercase; opacity: 1; } /* IE 10+ */
+TEXTAREA::-webkit-input-placeholder { color: #252525; opacity: 1; }
+TEXTAREA:-moz-placeholder { color: #252525; opacity: 1; } /* FF 4-18 */
+TEXTAREA::-moz-placeholder { color: #252525; opacity: 1; } /* FF 19+ */
+TEXTAREA:-ms-input-placeholder { color: #252525; opacity: 1; } /* IE 10+ */
+
+INPUT:focus::-webkit-input-placeholder { color: transparent; }
+INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+TEXTAREA:focus::-webkit-input-placeholder { color: transparent; }
+TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+INPUT[type="submit"] {
+  outline: none;
+  border: 0;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 1em 1.3em 0.8em 1.5em;
+  background: #80E6EC;
+  color: #294A50;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 18px;
+  line-height: 0.8em;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  display: block;
+  margin: 0 auto;
+}
+
+INPUT[type="submit"]:hover {
+  background: #294A50;
+  color: #FFFFFF;
+}
+
+INPUT[type="submit"][disabled],
+INPUT[type="submit"][disabled]:hover {
+  background: #CCCCCC;
+  color: #DDDDDD;
+  cursor: not-allowed;
+}
+
+SELECT {
+  padding: 9px 30px 9px 0;
+  margin-bottom: 0;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.select:after {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-family: 'FontAwesome';
+  content: "\f0d7";
+  font-size: 2em;
+  color: #2B898F;
+  pointer-events: none;
+}
+
+FORM LABEL {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1em;
+  color: #252525;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 17px;
+  line-height: 1.2em;
+  margin-bottom: 1.7em;
+}
+
+FORM LABEL:after {
+  content: "";
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-box-shadow:inset 0px 0px 0px 3px #2B898F;
+  -moz-box-shadow:inset 0px 0px 0px 3px #2B898F;
+  box-shadow:inset 0px 0px 0px 3px #2B898F;
+  border-radius: 50%;
+}
+
+FORM INPUT[type="radio"] + LABEL:after {
+  border-radius: 50%;
+}
+
+FORM INPUT[type="checkbox"],
+FORM INPUT[type="radio"] {
+  display: none;
+}
+
+FORM INPUT[type="checkbox"] + LABEL {
+  padding-left: 1.5em;
+}
+
+FORM INPUT[type="checkbox"] + LABEL:after {
+  border-radius: 2px;
+}
+
+FORM INPUT[type="checkbox"]:checked + LABEL:after,
+FORM INPUT[type="radio"]:checked + LABEL:after {
+  background: #2B898F;
+}
+
+.my-form-label {
+  color: #252525;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+.form-note {
+  font-size: 80%;
+  font-style: italic;
+  margin-bottom: 1.5em;
+}
+
+#form-messages {
+  min-height: 2.4em;
+  line-height: 1.2em;
+  color: #B7262F;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
 .site-width {
   width: 1200px;
   margin: 0 auto;
@@ -67,6 +258,16 @@ H2 {
 }
 
 .bluetext { color: #80E6EC; }
+
+.right {
+  float: right;
+  margin-left: 3%;
+}
+
+.left {
+  float: left;
+  margin-right: 3%;
+}
 
 .menu-top {
   font-family: 'Rubik One', sans-serif;
@@ -368,6 +569,10 @@ H2 {
   text-indent: -1em;
 }
 
+.footer-spiffs {
+  display: none;
+}
+
 .footer-spiff {
   margin-top: 2em;
   float: left;
@@ -550,6 +755,161 @@ H2 {
   width: 100%;
 }
 
+.programs-sidebar {
+  float: left;
+  width: 26.33%;
+  margin-top: 50px;
+}
+
+.programs-sidebar .menu {
+  padding: 1.3em;
+  background: #374E54;
+  color: #6ED1D7;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.programs-sidebar .menu UL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.programs-sidebar .menu > UL > LI {
+  display: none;
+}
+
+.programs-sidebar .menu UL LI.programs-menu {
+  display: block;
+}
+
+.programs-sidebar .menu UL LI.programs-menu > A {
+  display: none;
+}
+
+.programs-sidebar .menu UL LI.programs-menu UL LI {
+  padding: 0.2em 0;
+}
+
+.programs-sidebar .menu UL LI.programs-menu UL LI.menu-header {
+  padding-top: 1.5em;
+}
+
+.programs-sidebar .menu UL LI.programs-menu UL LI A:link,
+.programs-sidebar .menu UL LI.programs-menu UL LI A:visited {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.programs-sidebar .menu UL LI.programs-menu UL LI A.current,
+.programs-sidebar .menu UL LI.programs-menu UL LI A:hover,
+.programs-sidebar .menu UL LI.programs-menu UL LI A:active {
+  color: #6ED1D7;
+}
+
+.programs-sidebar .footer-spiff {
+  float: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 1.5em;
+}
+
+.programs-sidebar .footer-spiff A {
+  font-size: 14px;
+}
+
+.programs-sub {
+  float: right;
+  width: 70.16%;
+  margin: 50px 0 25px;
+  line-height: 1.8em;
+}
+
+.programs-sub H3 {
+  margin: 0 0 0.5em;
+  color: #374E54;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 38px;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+}
+
+.programs-sub H4 {
+  margin: 0 0 0.6em;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.programs-sub IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+A.printable {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+A.printable:after {
+  font-family: "FontAwesome";
+  content: "\f02f";
+  margin-left: 0.5em;
+}
+
+#yoga-form,
+#womens-fitness-form {
+  margin: 0 auto;
+  width: 66%;
+}
+
+#yoga-form #r-res-addr + LABEL,
+#womens-fitness-form #r-res-addr + LABEL {
+  margin-left: 1.5em;
+}
+
+#yoga-form #state,
+#womens-fitness-form #state {
+  float: left;
+  width: 45%;
+}
+
+#yoga-form #state .select,
+#womens-fitness-form #state .select {
+  width: 100%;
+}
+
+#yoga-form #zip,
+#womens-fitness-form #zip {
+  float: right;
+  width: 45%;
+}
+
+#yoga-form #r-no + LABEL,
+#womens-fitness-form #r-no + LABEL {
+  margin-left: 1.5em;
+}
+
+INPUT[type="checkbox"]#r-agree + LABEL:after {
+  top: 0.25em;
+  transform: none;
+}
+
+#yoga-form #form-messages,
+#womens-fitness #form-messages {
+  margin-bottom: 2em;
+}
+
 
 
 
@@ -586,6 +946,12 @@ H2 {
   .footer-spiff A:visited {
     font-size: 54.54%;
   }
+  
+  #yoga-form,
+  #womens-fitness-form {
+    margin: 0;
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -606,14 +972,15 @@ H2 {
   .home-right {
     font-size: 26px;
   }
+
+  #yoga-form,
+  #womens-fitness-form {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
-}
-
-@media only screen and (max-width: 768px) {
-  /* Tablet */
   .nsi-header UL LI {
     margin-left: 3.5%;
   }
@@ -633,6 +1000,23 @@ H2 {
   .programs UL LI {
     width: 50%;
   }
+
+  .programs-sidebar {
+    display: none;
+  }
+
+  .programs-sub {
+    float: none;
+    width: 100%;
+  }
+
+  .footer-spiffs {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet */
 }
 
 @media only screen and (max-width: 600px) {
@@ -776,5 +1160,23 @@ H2 {
   .home-right {
     font-size: 20px;
     padding: 1em 0 1em 1.5em;
+  }
+  
+  #yoga-form #r-comm-addr + LABEL,
+  #womens-fitness-form #r-comm-addr + LABEL {
+    margin-bottom: 0;
+  }
+  
+  #yoga-form #r-res-addr + LABEL,
+  #womens-fitness-form #r-res-addr + LABEL {
+    margin-left: 0;
+  }
+  
+  #yoga-form #state,
+  #yoga-form #zip,
+  #womens-fitness-form #state,
+  #womens-fitness-form #zip {
+    float: none;
+    width: 100%;
   }
 }

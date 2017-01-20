@@ -1,12 +1,12 @@
 <ul>
-  <li>
+  <li class="programs-menu">
     <a href="programs.php">Programs</a>
     <ul>
       <li>Adult Programs</li>
       <li><a href="womens-fitness-gift-pack-sampling.php">Women's Fitness Gift Pack Sampling</a></li>
       <li><a href="yoga-gift-pack-sampling.php">Yoga Gift Pack Sampling</a></li>
       <li><a href="yoga-sign-up.php">Yoga Instructors Gift Pack Sign Up</a></li>
-      <li><a href="womens-fitness-clubs.php">Women's Fitness Clubs Sample Pack Sign Up</a></li>
+      <li><a href="womens-fitness-clubs.php">Women's Fitness Clubs Sample Pack</a></li>
       <li><a href="amphitheater-concert-sampling.php">Amphitheater Concert Sampling</a></li>
       <li><a href="live-theater-sampling.php">Live Theater Sampling</a></li>
       <li><a href="airline-passenger-sampling.php">Airline Passenger Sampling</a></li>
