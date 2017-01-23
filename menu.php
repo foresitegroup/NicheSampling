@@ -17,23 +17,8 @@
       <li><a href="sorority-sampling.php">Sorority Sampling</a></li>
     </ul>
   </li>
-  <li>
-    <a href="market-research.php">Market Research</a>
-    <ul>
-      <li><a href="payback-calculator.php">Payback Calculator</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="about-us.php">About</a>
-    <ul>
-      <li><a href="management-profiles.php">Management Profiles</a></li>
-      <li><a href="our-clients.php">Our Clients</a></li>
-      <li><a href="brands.php">Brands</a></li>
-      <li><a href="synergy.php">Synergy Sampling</a></li>
-      <li><a href="distribution-partners.php">Distribution Partners</a></li>
-      <li><a href="distribution-process.php">Distribution Process</a></li>
-    </ul>
-  </li>
+  <li><a href="market-research.php">Market Research</a></li>
+  <li><a href="about-us.php">About</a></li>
   <li><a href="contact-us.php">Contact</a></li>
   <li class="social">
     <a href="https://www.facebook.com/niche.sampling"><i class="fa fa-facebook" aria-hidden="true"></i></a>
