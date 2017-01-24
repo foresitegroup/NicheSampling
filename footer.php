@@ -3,10 +3,12 @@
       <div class="cf<?php if (isset($FooterSpiffs)) echo " footer-spiffs"; ?>">
         <?php include "spiffs.php"; ?>
       </div>
-
+      
+      <?php if (!isset($FooterContact)) { ?>
       <div class="footer-contact">
         <a href="contact-us.php">CONTACT US</a>
       </div>
+      <?php } ?>
 
       <div class="nsi-footer cf">
         <div class="address">

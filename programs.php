@@ -3,7 +3,7 @@ $PageTitle = "Programs";
 include "header.php";
 ?>
 
-<div class="banner" style="background-image: url(images/banner-programs.jpg);">
+<div class="banner overlay">
   <h2>NSI PRODUCT SAMPLING PROGRAMS</h2>
 </div>
 

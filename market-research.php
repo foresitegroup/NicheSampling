@@ -3,7 +3,7 @@ $PageTitle = "Market Research";
 include "header.php";
 ?>
 
-<div class="banner" style="background-image: url(images/banner-programs.jpg);">
+<div class="banner overlay">
   <h2>NSI MARKET RESEARCH</h2>
 </div>
 

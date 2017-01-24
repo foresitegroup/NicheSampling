@@ -1,0 +1,11 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+Redirect 301 /payback-calculator.php http://www.nichesampling.com/market-research.php#payback-calculator
+Redirect 301 /management-profiles.php http://www.nichesampling.com/contact.php
+Redirect 301 /our-clients.php http://www.nichesampling.com/about-us.php#our-clients
+Redirect 301 /brands.php http://www.nichesampling.com/about-us.php
+Redirect 301 /distribution-partners.php http://www.nichesampling.com/about-us.php#distribution-partners
+Redirect 301 /distribution-process.php http://www.nichesampling.com/about-us.php#distribution-process

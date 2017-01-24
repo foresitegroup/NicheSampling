@@ -52,7 +52,7 @@ include "header.php";
 </div>
 
 <div id="distribution-partners">
-  Live Nation - Theaters and Amphitheaters Fitness Clubs Nationwide <span></span> College Bookstores Nationwide <span></span> Hospitals Nationwide <span></span> Airlines <span></span> College Sororities <span></span> Yoga and Pilates
+  Live Nation - Theaters and Amphitheaters <span></span> Fitness Clubs <span></span> College Bookstores <span></span> Hospitals <span></span> Airlines <span></span> Sororities <span></span> Yoga and Pilates
 </div>
 
 <?php include "footer.php"; ?>
