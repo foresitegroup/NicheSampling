@@ -17,15 +17,12 @@ include "header.php";
   <br>
 
   <ul>
-    <li><a href="womens-fitness-gift-pack-sampling.php">Women's Fitness Gift Pack Sampling</a></li>
-    <li><a href="yoga-gift-pack-sampling.php">Yoga Gift Pack Sampling</a></li>
-    <li><a href="yoga-sign-up.php">Yoga Instructors Gift Pack Sign Up</a></li>
-    <li><a href="womens-fitness-clubs.php">Women's Fitness Clubs Sample Pack Sign Up</a></li>
-    <li><a href="amphitheater-concert-sampling.php">Amphitheater Concert Sampling</a></li>
+    <li><a href="womens-health-fitness-sampling.php">Women's Health Fitness Sampling</a></li>
+    <li><a href="yoga-sampling.php">Yoga Sampling</a></li>
+    <li><a href="airline-passenger-and-club-sampling.php">Airline Passenger &amp; Club Sampling</a></li>
     <li><a href="live-theater-sampling.php">Live Theater Sampling</a></li>
-    <li><a href="airline-passenger-sampling.php">Airline Passenger Sampling</a></li>
-    <li><a href="new-mother-sampling.php">New Mother Sampling</a></li>
-    <li><a href="prenatal-sampling.php">Prenatal Sampling</a></li>
+    <li><a href="new-mother-and-prenatal-sampling.php">New Mother &amp; Prenatal Sampling</a></li>
+    <li><a href="customized-sampling.php">Customized Sampling</a></li>
   </ul>
 
   <div style="clear: both;"></div><br>
@@ -34,7 +31,7 @@ include "header.php";
   <hr><br>
   <br>
 
-  <h3>STUDENT &amp; COLLEGE SAMPLING PROGRAMS</h3>
+  <h3>COLLEGE SAMPLING PROGRAMS</h3>
   Targeting college students, utilizing opportunities as back-to-school shopping, sororities and bookstores.<br>
   <br>
 

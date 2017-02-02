@@ -22,8 +22,6 @@ include "header.php";
   <ul class="double-spaced">
     <li>Up to 2,000,000 samples distributed to upscale adults / females</li>
     <li>Samples hand-distributed by ushers</li>
-    <li>Timing TBD based upon brand needs and category availability</li>
-    <li>Sample due date TBD based upon brand needs and availability</li>
   </ul>
   <br>
 
@@ -39,16 +37,8 @@ include "header.php";
   The Traveling Broadway Theater Series Program women are primarily:
   <ul>
     <li>Age 30+</li>
-    <li>Higher income with an average household income of $86,000</li>
+    <li>Higher income with an average household income of $100,000</li>
     <li>Educated with a college degree or higher</li>
-  </ul>
-  <br>
-
-  <h4>KEY ELEMENTS</h4>
-  <ul>
-    <li>Distribution dates TBD</li>
-    <li>Category reservation dates TBD</li>
-    <li>Sample due dates coincide with sample distribution</li>
   </ul>
   <br>
   <br>

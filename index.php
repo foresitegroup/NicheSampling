@@ -41,15 +41,14 @@ include "header.php";
 </div>
 
 <div class="home-left">
-  <h1>WHAT IS NICHE SAMPLING?</h1>
-  Niche Sampling is a national marketing services company that provides an avenue for marketers to efficiently and effectively reach and influence the purchase habits of highly-targeted consumer segments through product sampling programs.<br>
+  <h1>Niche Sampling is a national marketing services company</h1> that provides an avenue for marketers to efficiently and effectively reach and influence the purchase habits of highly-targeted consumer segments through product sampling programs.<br>
   <br>
 
-  <a href="about-us" class="button">LEARN MORE</a>
+  <a href="about-us.php" class="button">LEARN MORE</a>
 </div>
 
 <div class="home-right">
-  &ldquo; Reach and influence highly-targeted consumer segments through product sampling programs. &rdquo;
+  Niche Sampling is now in its 25th year
 </div>
 
 <?php include "footer.php"; ?>

@@ -36,6 +36,8 @@ include "header.php";
     <img src="images/client-pepsico.png" alt="PepsiCo" class="wide">
     <img src="images/client-heinz.png" alt="Heinz">
     <img src="images/client-unilever.png" alt="Unilever" class="tall">
+    <img src="images/client-chattem.png" alt="Chattem">
+    <img src="images/client-loreal.png" alt="L'Oreal" class="wide">
   </div>
 </div>
 
@@ -44,7 +46,7 @@ include "header.php";
 
   <div class="distribution-text">
     <h2>DISTRIBUTION PROCESS &amp; PARTNERS</h2>
-    Niche Sampling utilizes a long-term fulfillment logistics partner to execute our warehousing, pack-out and outbound logistics. Our fulfillment logistics partner has over 20 years of experience in the packaging industry. Their capabilities include flow-wrapping, bundle-wrapping, shrink-wrapping, poly-bag packing, cold-pack shipping, pillow pack and many more. Regional locations in California, Arizona, Illinois and Ohio to assure timely and cost efficient execution.<br>
+    Niche Sampling utilizes a long-term fulfillment logistics partner to execute our warehousing, pack-out and outbound logistics.   Our fulfillment logistics partner has over 40 years of experience in the packaging industry. Their capabilities include flow-wrapping, bundle-wrapping, shrink-wrapping, poly-bag packing, cold-pack shipping, pillow pack, display packaging, kitting, continuity and many more.   Regional locations in California, Ohio and Pennsylvania to assure timely and cost efficient execution.<br>
     <br>
 
     <span class="button">OUR PARTNERS <i class="fa fa-arrow-down" aria-hidden="true"></i></span>
@@ -52,7 +54,7 @@ include "header.php";
 </div>
 
 <div id="distribution-partners">
-  Live Nation - Theaters and Amphitheaters <span></span> Fitness Clubs <span></span> College Bookstores <span></span> Hospitals <span></span> Airlines <span></span> Sororities <span></span> Yoga and Pilates
+  Theaters <span></span> Fitness Clubs <span></span> College Bookstores <span></span> Hospitals <span></span> Airlines <span></span> Sororities <span></span> Yoga and Pilates
 </div>
 
 <?php include "footer.php"; ?>

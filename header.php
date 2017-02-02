@@ -16,8 +16,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Niche Sampling Inc. (NSI) distributes samples to reach the heaviest users and most influential consumers, creating the perfect marriages between brands, retailers, sample distribution venues, media and consumers.<?php if (isset($Description)) echo " " . $Description; ?>">
+    <meta name="keywords" content="brand awareness, yoga instructors, target sampling, target audience, nsi, market research, market study, niche sampling, nichesampling, market sampling, market sample, product samples, brand samples, sample distribution, shopper sampling, yoga, yogafit, yoga fit, curves, product sampling, product sampling programs<?php if (isset($Keywords)) echo ", " . $Keywords; ?>">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">

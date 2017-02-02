@@ -105,29 +105,11 @@ unset($_SESSION['feedback']);
       President<br>
       <?php email("Phil@nichesampling.com"); ?>
     </div>
-    
-    <div>
-      <strong>Lee Hessenthaler</strong><br>
-      Vice President of Sales &amp; Marketing<br>
-      <?php email("Lee@nichesampling.com"); ?>
-    </div>
-    
+
     <div>
       <strong>Jennifer Schmitz</strong><br>
       Marketing Operations Manager<br>
       <?php email("Jennifer@nichesampling.com"); ?>
-    </div>
-    
-    <div>
-      <strong>Nancy Picker</strong><br>
-      National Sales Director<br>
-      <?php email("Nancy@nichesampling.com"); ?>
-    </div>
-    
-    <div>
-      <strong>Anne Warchol</strong><br>
-      National Account Director<br>
-      <?php email("Anne@nichesampling.com"); ?>
     </div>
   </div>
 
