@@ -18,6 +18,8 @@
   <li><a href="research-and-roi.php">Research &amp; ROI</a></li>
   <li><a href="about-us.php">About</a></li>
   <li><a href="contact-us.php">Contact</a></li>
+  <li class="mobile"><a href="womens-fitness-clubs.php">Womens Fitness Clubs</a></li>
+  <li class="mobile"><a href="yoga-sign-up.php">Yoga Instructors</a></li>
   <li class="social">
     <a href="https://www.facebook.com/niche.sampling"><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
