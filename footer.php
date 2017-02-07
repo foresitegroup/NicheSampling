@@ -6,7 +6,7 @@
       
       <?php if (!isset($FooterContact)) { ?>
       <div class="footer-contact">
-        <a href="contact-us.php">CONTACT US</a>
+        <a href="<?php echo $TopDir; ?>contact-us.php">CONTACT US</a>
       </div>
       <?php } ?>
 

@@ -1221,6 +1221,93 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 #map-canvas A:link, #map-canvas A:visited { color: #294A50; text-decoration: none; }
 #map-canvas A:hover, #map-canvas A:active { color: #2B898F; text-decoration: none; }
 
+.banner-blog-index {
+  text-transform: uppercase;
+  margin-bottom: 6em;
+}
+
+.blog-content-index {
+  margin: 3em 0;
+  font-size: 18px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.blog-content {
+  padding: 3em 0 0;
+}
+
+.blog-content-index H2,
+.blog-content H2 {
+  margin: 0 0 0.1em;
+  color: #374E54;
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blog-content-index .date,
+.blog-content .date {
+  margin: 0 0 2em;
+  color: #2B898F;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blog-content-index .readmore {
+  margin-top: 2em;
+  display: inline-block;
+  text-decoration: none;
+  border: 4px solid #2B898F;
+  border-radius: 0.8em;
+  padding: 0.5em 1.4em;
+}
+
+.blog-content-index .readmore:hover {
+  border-color: #80E6EC;
+}
+
+.navigation {
+  margin: 4em 0 3em;
+}
+
+.nav-links A:link,
+.nav-links A:visited {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.nav-links .prev {
+  float: left;
+}
+
+.nav-links .prev:before {
+  font-family: "FontAwesome";
+  content: "\f177";
+  margin-right: 0.4em;
+}
+
+.nav-links .next {
+  float: right;
+}
+
+.nav-links .next:after {
+  font-family: "FontAwesome";
+  content: "\f178";
+  margin-left: 0.4em;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .site-width {

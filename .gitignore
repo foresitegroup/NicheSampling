@@ -1,2 +1,9 @@
 inc/dbconfig.php
 pdf
+blog/*
+!blog/wp-content/
+blog/wp-content/*
+!blog/wp-content/themes/
+blog/wp-content/themes/*
+!blog/wp-content/themes/jimscheese
+blog/wp-content/themes/jimscheese/.DS_Store
