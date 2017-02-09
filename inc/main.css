@@ -272,17 +272,24 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 }
 
 .menu-top {
-  font-family: 'Rubik One', sans-serif;
+  padding: 1em 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   font-size: 12px;
-  line-height: 40px;
   text-align: right;
   border-bottom: 1px solid #E1E1E1;
 }
 
 .menu-top A {
+  display: inline-block;
+  color: #374E54;
   text-decoration: none;
+  line-height: 1em;
   letter-spacing: 0.2em;
-  margin-left: 3em;
+  margin-left: 1em;
+  border: 4px solid #80E6EC;
+  border-radius: 18px;
+  padding: 0.85em 1em 0.6em 1.2em;
 }
 
 .menu-top A:first-of-type {
@@ -291,11 +298,13 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .menu-top A:hover,
 .menu-top A:active {
-  color: #374E54;
+  color: #2B898F;
+  border-color: #2B898F;
 }
 
 .menu-top .social {
   float: right;
+  margin-top: 6px;
 }
 
 .menu-top .social A:link,
@@ -303,14 +312,28 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   letter-spacing: 0;
   margin-left: 0.3em;
   display: inline-block;
-  width: 19px;
-  height: 19px;
-  line-height: 22px;
-  text-align: center;
+  width: 26px;
+  height: 26px;
+  font-size: 17px;
   border-radius: 50%;
   background: #374E54;
   color: #FFFFFF;
+  position: relative;
+  border: 0;
+  padding: 0;
+  vertical-align: middle;
 }
+
+.menu-top .social A .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.menu-top .social A.facebook { background: #205B9F; }
+.menu-top .social A.pinterest { background: #EB1922; }
+.menu-top .social A.linkedin { background: #0074B5; }
 
 .menu-top .social A:hover,
 .menu-top .social A:active {
@@ -318,7 +341,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 }
 
 .menu-top .social A:first-of-type {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .nsi-header {
@@ -514,6 +537,17 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   letter-spacing: 0.1em;
 }
 
+.cycle-slideshow > DIV > DIV.first-slide {
+  width: 600px;
+  font-size: 83px;
+}
+
+.cycle-slideshow > DIV > DIV.first-slide .bluetext {
+  padding: 1em 0 2em;
+  font-size: 21px;
+  line-height: 1em;
+}
+
 .cycle-slideshow > DIV > DIV .small {
   font-size: 57%;
   line-height: 1.4em;
@@ -629,27 +663,36 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .footer-contact {
   margin-top: 1.8em;
-  padding: 1.5em 0;
+  padding: 2em 0;
   text-align: center;
-  background: #363636;
+  background: #374E54;
+  color: #FFFFFF;
   font-family: 'Rubik One', sans-serif;
-  font-size: 27px;
+  font-size: 28px;
   line-height: 1em;
+}
+
+.footer-contact SPAN:after {
+  content: "\2022";
+  margin: 0 0.25em;
+}
+
+.footer-contact .phone {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .footer-contact A:link,
 .footer-contact A:visited {
-  display: inline-block;
-  text-decoration: none;
-  border: 4px solid #FFFFFF;
-  border-radius: 0.8em;
   color: #FFFFFF;
-  padding: 0.5em 1.4em;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .footer-contact A:hover,
 .footer-contact A:active {
-  border-color: #80E6EC;
   color: #80E6EC;
 }
 
@@ -1028,11 +1071,13 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   letter-spacing: 0.1em;
 }
 
-.about {
+.about,
+.brands {
   line-height: 1.8em;
 }
 
-.about H2 {
+.about H2,
+.brands H2 {
   margin: 1.5em 0 0.3em;
   font-family: 'Rubik One', sans-serif;
   font-size: 38px;
@@ -1040,23 +1085,62 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   letter-spacing: 0.1em;
 }
 
-.about .clients {
+.about H3 {
+  margin: 0 0 0.3em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+.about H3 EM {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.about .clients,
+.brands .brand-logos {
   text-align: center;
 }
 
-.about .clients IMG {
+.about .clients IMG,
+.brands .brand-logos IMG {
   width: 15%;
   height: auto;
   margin: 1.5em 4%;
   vertical-align: middle;
 }
 
-.about .clients IMG.wide {
+.about .clients IMG.wide,
+.brands .brand-logos IMG.wide {
   width: 25%;
 }
 
-.about .clients IMG.tall {
+.about .clients IMG.tall,
+.brands .brand-logos IMG.tall {
   width: 8%;
+}
+
+.about A.brands:link,
+.about A.brands:visited {
+  margin-top: 2em;
+  display: inline-block;
+  border: 4px solid #2B898F;
+  border-radius: 19px;
+  padding: 0.7em 1.4em 0.55em 1.7em;
+  color: #374E54;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+
+.about A.brands:hover,
+.about A.brands:active {
+  border-color: #80E6EC;
+  color: #80E6EC;
 }
 
 #distribution-process {
@@ -1377,6 +1461,11 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     font-size: 26px;
   }
 
+  .footer-contact SPAN:first-of-type {
+    display: block;
+    visibility: hidden;
+  }
+
   #yoga-form,
   #womens-fitness-form {
     width: 100%;
@@ -1468,6 +1557,10 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     padding: 0.1em 0;
   }
 
+  .cycle-slideshow > DIV > DIV.first-slide {
+    width: 90%;
+  }
+
   .home-right {
     padding-left: 8.5%;
   }
@@ -1497,16 +1590,19 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     display: block;
   }
 
-  .about .clients IMG {
+  .about .clients IMG,
+  .brands .brand-logos IMG {
     width: 22%;
     margin: 1.5em 5%;
   }
 
-  .about .clients IMG.wide {
+  .about .clients IMG.wide,
+  .brands .brand-logos IMG.wide {
     width: 50%;
   }
 
-  .about .clients IMG.tall {
+  .about .clients IMG.tall,
+  .brands .brand-logos IMG.tall {
     width: 14%;
   }
 
@@ -1550,7 +1646,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     text-align: center;
   }
   
-  .banner:before {
+  .banner:after {
     padding-top: 30%;
   }
 
@@ -1562,6 +1658,20 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     height: 325px;
   }
 
+  .cycle-slideshow > DIV > DIV.first-slide {
+    font-size: 55px;
+    line-height: 1em;
+  }
+
+  .cycle-slideshow > DIV > DIV.first-slide .bluetext {
+    padding: 1em 0 0;
+    line-height: 1.2em;
+  }
+
+  .cycle-slideshow > DIV > DIV.first-slide .learnmore {
+    margin-top: 2em;
+  }
+
   .home-left,
   .home-right {
     float: none;
@@ -1571,6 +1681,11 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   .home-right {
     margin-top: 2em;
     font-size: 30px;
+  }
+
+  .footer-contact SPAN {
+    display: block;
+    visibility: hidden;
   }
 
   .footer-spiff {
@@ -1641,6 +1756,15 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     height: 250px;
   }
 
+  .cycle-slideshow > DIV > DIV.first-slide {
+    font-size: 35px;
+    line-height: 1em;
+  }
+
+  .cycle-slideshow > DIV > DIV.first-slide .bluetext {
+    font-size: 14px;
+  }
+
   .home-right {
     font-size: 20px;
     padding: 1em 0 1em 1.5em;
@@ -1685,16 +1809,19 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     font-size: 80%;
   }
 
-  .about .clients IMG {
+  .about .clients IMG,
+  .brands .brand-logos IMG {
     width: 39%;
     margin: 1.5em 5%;
   }
 
-  .about .clients IMG.wide {
+  .about .clients IMG.wide,
+  .brands .brand-logos IMG.wide {
     width: 90%;
   }
 
-  .about .clients IMG.tall {
+  .about .clients IMG.tall,
+  .brands .brand-logos IMG.tall {
     width: 30%;
   }
 

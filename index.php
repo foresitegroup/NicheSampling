@@ -8,8 +8,10 @@ include "header.php";
   <p class="cycle-pager"></p>
 
   <div style="background-image: url(images/home-slider1.jpg);">
-    <div>
-      TARGETED <span class="bluetext">SAMPLING</span> PROGRAMS
+    <div class="first-slide">
+      NICHE SAMPLING
+
+      <div class="bluetext">TARGETED SAMPLING PROGRAMS</div>
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
     </div>

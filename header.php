@@ -48,9 +48,9 @@ function email($address, $name="") {
         <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTORS</a>
 
         <div class="social">
-          <a href="https://www.facebook.com/niche.sampling"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/philgruber"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/niche.sampling" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/philgruber" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
 

@@ -19,12 +19,40 @@ include "header.php";
 
   NSI is also the creator of <a href="synergy.php">Synergy Sampling</a>, an enhancement of brand imagery to deliver on optimum trial experience (OTE) to generate stronger conversion results.<br>
   <br>
+  <br>
+
+
+  <h2 id="management">MANAGEMENT</h2>
+  <h3>Phil Gruber<em>, President</em></h3>
+  <strong><?php email("Phil@nichesampling.com"); ?></strong><br>
+  <br>
+
+  As the founder and president of NSI, I have over 30 years of experience in marketing, advertising and brand management. Prior to receiving an MBA from the University of Wisconsin, Madison, I worked in New York as a media planner at SSC&amp;B (Lintas) and as an account executive at William Esty.<br>
+  <br>
+
+  Post MBA, I worked in Brand Management for ten years at Helene Curtis and S.C. Johnson and performed numerous consulting assignments for Bausch &amp; Lomb, the Hunter Group and The Center For New Product Development.<br>
+  <br>
+
+  As a brand manager, sampling had always been my most effective &mdash; yet also my most expensive marketing initiative. As a result, our goal at NSI is to be the number one sampling company in efficiently and effectively reaching the heaviest users and most influential consumers.<br>
+  <br>
+
+  <h3>Jennifer Schmitz<em>, Marketing Operations Manager</em></h3>
+  <strong><?php email("Jennifer@nichesampling.com"); ?></strong><br>
+  <br>
+
+  My job is to ensure that our programs run smoothly and efficiently. I work with the client to keep program details and deadlines on track.<br>
+  <br>
+
+  Prior to joining NSI, I spent four years in the advertising industry. I worked on new business development, corporate communications and a wide variety of consumer brands including, Dremel, Master Lock, Rayovac, Bombardier and American Italian Pasta. This combined advertising experience taught me how to evaluate a client's marketing needs and execute against those needs in a strategic, effective and cost-efficient fashion. I hold a Bachelor of Science in Business Management from Cardinal Stritch University.<br>
+  <br>
+  <br>
+
 
   <h2 id="our-clients">OUR CLIENTS</h2>
   You're in good company with NSI. Our extensive client list includes premier companies such as:
 
   <div class="clients">
-    <img src="images/client-blue-diamond.png" alt="Blue Dianmond Growers">
+    <img src="images/client-blue-diamond.png" alt="Blue Diamond Growers">
     <img src="images/client-nestle.png" alt="Nestle">
     <img src="images/client-general-mills.png" alt="General Mills">
     <img src="images/client-procter-and-gamble.png" alt="Procter & Gamble">
@@ -37,7 +65,10 @@ include "header.php";
     <img src="images/client-heinz.png" alt="Heinz">
     <img src="images/client-unilever.png" alt="Unilever" class="tall">
     <img src="images/client-chattem.png" alt="Chattem">
-    <img src="images/client-loreal.png" alt="L'Oreal" class="wide">
+    <img src="images/client-loreal.png" alt="L'Oreal" class="wide"><br>
+    <br>
+
+    <a href="brands.php" class="brands">VIEW OUR BRANDS</a>
   </div>
 </div>
 

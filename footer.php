@@ -6,7 +6,7 @@
       
       <?php if (!isset($FooterContact)) { ?>
       <div class="footer-contact">
-        <a href="<?php echo $TopDir; ?>contact-us.php">CONTACT US</a>
+        CONTACT NICHE SAMPLING <span></span> <?php email("phil@nichesampling.com");?> <span></span> <div class="phone">(414) 276-5666</div>
       </div>
       <?php } ?>
 

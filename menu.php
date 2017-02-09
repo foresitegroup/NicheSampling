@@ -16,7 +16,12 @@
     </ul>
   </li>
   <li><a href="<?php echo $TopDir; ?>research-and-roi.php">Research &amp; ROI</a></li>
-  <li><a href="<?php echo $TopDir; ?>about-us.php">About</a></li>
+  <li>
+    <a href="<?php echo $TopDir; ?>about-us.php">About</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>blog">Blog</a></li>
+    </ul>
+  </li>
   <li><a href="<?php echo $TopDir; ?>contact-us.php">Contact</a></li>
   <li class="mobile"><a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">Womens Fitness Clubs</a></li>
   <li class="mobile"><a href="<?php echo $TopDir; ?>yoga-sign-up.php">Yoga Instructors</a></li>
