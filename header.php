@@ -44,12 +44,14 @@ function email($address, $name="") {
 
     <div class="site-width">
       <div class="menu-top">
-        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMENS FITNESS CLUBS</a>
-        <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTORS</a>
+        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMENS HEALTH &amp; FITNESS CLUBS<br>REGISTRATION</a>
+        <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTORS<br>REGISTRATION</a>
 
         <div class="social">
           <a href="https://www.facebook.com/niche.sampling" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/NicheSampling" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/philgruber" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>

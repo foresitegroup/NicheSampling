@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$PageTitle = "Yoga Instructors Gift Pack Sign Up";
+$PageTitle = "Yoga Instructors Sign Up";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -17,18 +17,18 @@ include "header.php";
 </div>
 
 <div class="programs-sub">
-  <h3>YOGA INSTRUCTORS GIFT PACK SIGN UP</h3>
+  <h3>YOGA INSTRUCTORS SIGN UP</h3>
 
   <h4>PROGRAM DESCRIPTION</h4>
 
   <ul>
-    <li>The Yoga Gift Packs are only for active Yoga and/or Pilates instructors.</li>
+    <li>The Yoga Sampling Program are only for active Yoga and/or Pilates instructors.</li>
     <li>Unfortunately, we can no longer ship to residential addresses; we can only accommodate shipping to valid business locations.</li>
-    <li>The Yoga Gift Packs are only available in the United States.</li>
-    <li>If you have any questions about the Yoga program, please <a href="yoga-faq.php">visit our FAQ page</a>.</li>
+    <li>The Yoga Sampling Program is only available in the United States. We cannot ship to HI, AK or PR.</li>
+    <li>If you have any questions about the Yoga Sampling Program, please <a href="yoga-faq.php">visit our FAQ page</a>.</li>
   </ul>
   <br>
-  
+
   <?php
   $feedback = "Please verify your information is correct before you submit.";
   ?>
@@ -112,7 +112,7 @@ include "header.php";
   unset($_SESSION['feedback']);
   ?>
   </noscript>
-  
+
   <form action="form-yoga.php" method="POST" id="yoga-form">
     <div>
       <input type="text" name="<?php echo md5("firstname" . $ip . $salt . $timestamp); ?>" id="firstname" placeholder="FIRST NAME">
@@ -132,7 +132,7 @@ include "header.php";
       <div class="form-note">Sorry, we cannot ship to PO boxes</div>
 
       <input type="text" name="<?php echo md5("city" . $ip . $salt . $timestamp); ?>" id="city" placeholder="CITY">
-      
+
       <div id="state">
         <div class="select note">
           <select name="state">
@@ -150,15 +150,15 @@ include "header.php";
       <input type="text" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="PHONE NUMBER">
 
       <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="EMAIL">
-      
+
       <input type="text" name="<?php echo md5("numberstudents" . $ip . $salt . $timestamp); ?>" id="numberstudents" placeholder="NUMBER OF STUDENTS">
-      
+
       <div class="my-form-label">ARE YOU AN ACTIVE YOGA AND/OR PILATES INSTRUCTOR?</div>
       <input type="radio" name="instructor" value="Yes" id="r-yes">
       <label for="r-yes">YES</label>
       <input type="radio" name="instructor" value="No" id="r-no">
       <label for="r-no">NO</label>
-      
+
       <div class="my-form-label">HOW DID YOU HEAR ABOUT THE YOGA GIFT PACKS?</div>
       <div class="select">
         <select name="hear">
@@ -172,7 +172,7 @@ include "header.php";
           <option value="Other">Other</option>
         </select>
       </div>
-      
+
       <div style="clear: both;"></div>
 
       <input type="checkbox" name="agree" value="" id="r-agree">

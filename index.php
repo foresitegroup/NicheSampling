@@ -50,7 +50,10 @@ include "header.php";
 </div>
 
 <div class="home-right">
-  Niche Sampling is now in its 25th year
+  Niche Sampling...<br>
+  Celebrating 25 Years!
+  <div>&ldquo;We're Doing <u>SAMPLING</u> Right&rdquo;</div>
+  <img src="images/home-roi.jpg" alt="">
 </div>
 
 <?php include "footer.php"; ?>

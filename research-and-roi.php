@@ -8,7 +8,7 @@ include "header.php";
 </div>
 
 <div class="market-research">
-  NSI's co-op sampling programs include independent market research conducted by WBA. The objective of the market research is to measure the impact the product samples and offers/coupons had on purchasing behavior. Brands supply their own questions which typically measure changes in brand awareness, usage and purchase.<br>
+  Independent market research conducted by WBA Research is available for many of NSI's sampling programs.  The objective of the market research is to measure the impact of product sampling on awareness, usage and purchase behavior and build brand specific ROI/payback model.<br>
   <br>
 
   NSI utilizes a test versus control cell design 2-3 months after distribution. The test group is composed of target audience sample recipients. The control group is comprised of target audience members who did not receive a sample. WBA &amp; NSI provide a research report on individual brand performance including ROI and a proprietary payback analysis.<br>
@@ -18,7 +18,7 @@ include "header.php";
   <hr>
 
   <h1 id="payback-calculator">ROI CALCULATOR</h1>
-  
+
   <script type="text/javascript" src="inc/jquery.jqplot.min.js"></script>
   <script type="text/javascript" src="inc/jqplot.canvasTextRenderer.js"></script>
   <script type="text/javascript" src="inc/jqplot.canvasAxisLabelRenderer.js"></script>
@@ -33,7 +33,7 @@ include "header.php";
         var fourx = Math.round(threex * 0.85);
         var fivex = Math.round(fourx * 0.98);
         var sixx = Math.round(fivex * 0.98);
-        
+
         var minusthirtyfive = ($("#retailprice").val() * 0.35).toFixed(2);
         var contperunit = Math.round((($("#retailprice").val() - minusthirtyfive) - $("#costofgoods").val()) * 100) / 100;
         var totalonex = Math.round(contperunit * total);
@@ -46,14 +46,14 @@ include "header.php";
         var totalsamplecost = Math.round($("#samples").val() * $("#samplecost").val());
         var totalpayback = Math.round(totalvar - 5000 - totalsamplecost);
         var totalpurchases = Math.round(total + twox + threex + fourx + fivex + sixx);
-        
+
         $(".total").text(total);
         $(".twox").text(twox);
         $(".threex").text(threex);
         $(".fourx").text(fourx);
         $(".fivex").text(fivex);
         $(".sixx").text(sixx);
-        
+
         $(".minusthirtyfive").text("$" + minusthirtyfive);
         $(".contperunit").text("$" + contperunit);
         $(".totalonex").text("$" + totalonex);
@@ -66,16 +66,16 @@ include "header.php";
         $(".totalsamplecost").text("$" + totalsamplecost);
         $(".totalpayback").text("$" + totalpayback);
         $(".totalpurchases").text("$" + totalpurchases);
-        
+
         return [total, twox, threex, fourx, fivex, sixx];
       }
-      
+
       $("input[type=\'text\']").keyup( function() {
         var a = Calculate();
         plot1.series[0].data = [[1,a[0]], [2,a[1]], [3,a[2]], [4,a[3]], [5,a[4]], [6,a[5]]];
         plot1.replot({resetAxes: true});
       });
-      
+
       var a = Calculate();
       MyData = [[1,a[0]], [2,a[1]], [3,a[2]], [4,a[3]], [5,a[4]], [6,a[5]]];
       plot1 = $.jqplot("chartdiv", [MyData], {
@@ -89,10 +89,10 @@ include "header.php";
   </script>
 
   <div style="text-align: center; font-weight: bold; font-size: 125%;">
-    YEAR 1 ANALYSIS OF Brand X PARTICIPATION IN NSI'S SAMPLING PROGRAM Gift Pack<br>
+    YEAR 1 ANALYSIS OF Brand X PARTICIPATION IN NSI'S SAMPLING PROGRAM<br>
     <br>
     <br>
-    
+
     Brand X reported a +8 point increase in "Most Likely To Use Next".<br>
     <br>
 
@@ -103,7 +103,7 @@ include "header.php";
 
   <table class="samples" cellspacing="0" cellpadding="0">
     <tr>
-      <td>Gift Pack total samples</td>
+      <td>Total Samples</td>
       <td><input type="text" id="samples" value="1000000"></td>
       <td>&nbsp;</td>
     </tr>
@@ -191,13 +191,13 @@ include "header.php";
       <td style="text-align: right;" class="contperunit"></td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr><td colspan="7">&nbsp;</td></tr>
-    
+
     <tr>
       <td colspan="7">Variable Contribution Per Unit x Units Sold = Total Variable Contribution</td>
     </tr>
-    
+
     <tr>
       <td>&nbsp;</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -207,7 +207,7 @@ include "header.php";
       <td style="text-align: right;" class="totalonex"></td>
       <td>(1x)</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(plus)</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -217,7 +217,7 @@ include "header.php";
       <td style="text-align: right;" class="totaltwox"></td>
       <td>(2x)</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(plus)</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -227,7 +227,7 @@ include "header.php";
       <td style="text-align: right;" class="totalthreex"></td>
       <td>(3x)</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(plus)</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -237,7 +237,7 @@ include "header.php";
       <td style="text-align: right;" class="totalfourx"></td>
       <td>(4x)</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(plus)</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -247,7 +247,7 @@ include "header.php";
       <td style="text-align: right;" class="totalfivex"></td>
       <td>(5x)</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(plus)</td>
       <td style="text-align: right;" class="contperunit"></td>
@@ -257,27 +257,27 @@ include "header.php";
       <td style="text-align: right;" class="totalsixx"></td>
       <td>(6x)</td>
     </tr>
-    
+
     <tr>
       <td colspan="5">&nbsp;</td>
       <td><hr></td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(equals)</td>
       <td style="text-align: left;" colspan="4">Total variable contribution</td>
       <td style="text-align: right;" class="totalvar"></td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(minus)</td>
       <td style="text-align: left;" colspan="4">Total program cost</td>
       <td style="text-align: right;">$5000</td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(minus)</td>
       <td style="text-align: left;" colspan="4">Total sample cost $<input type="text" id="samplecost" value="0.10"></td>
@@ -290,16 +290,16 @@ include "header.php";
       <td><hr></td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr>
       <td style="text-align: right;">(equals)</td>
       <td style="text-align: left; font-size: 110%; white-space: normal;" colspan="4">Total year 1 payback at 6x repeat</td>
       <td style="text-align: right; font-size: 110%;" class="totalpayback"></td>
       <td>&nbsp;</td>
     </tr>
-    
+
     <tr><td colspan="7">&nbsp;</td></tr>
-    
+
     <tr>
       <td>&nbsp;</td>
       <td style="text-align: left; font-size: 110%; white-space: normal;" colspan="4">Total year 1 incremental purchases</td>

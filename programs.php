@@ -17,7 +17,7 @@ include "header.php";
   <br>
 
   <ul>
-    <li><a href="womens-health-fitness-sampling.php">Women's Health Fitness Sampling</a></li>
+    <li><a href="womens-health-fitness-sampling.php">Women's Health &amp; Fitness Sampling</a></li>
     <li><a href="yoga-sampling.php">Yoga Sampling</a></li>
     <li><a href="airline-passenger-and-club-sampling.php">Airline Passenger &amp; Club Sampling</a></li>
     <li><a href="live-theater-sampling.php">Live Theater Sampling</a></li>

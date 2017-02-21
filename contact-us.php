@@ -70,7 +70,9 @@ unset($_SESSION['feedback']);
 <form action="form-contact.php" method="POST" id="contact-form">
   <div>
     <h1>CONTACT NICHE SAMPLING INC.</h1>
-    Call us at 414-276-5666 or fill in and send your request.<br>
+    Call us at 414-276-5666<br>
+    Email us at <?php email("phil@nichesampling.com"); ?><br>
+    or fill in and send your request.<br>
     <br>
     <br>
 

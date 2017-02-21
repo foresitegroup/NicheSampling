@@ -17,7 +17,15 @@ include "header.php";
 <div class="programs-sub">
   <h3>CUSTOMIZED SAMPLING</h3>
 
-  Niche Sampling can customize a program to meet your creative approach to your specific brand needs. Please contact us to discuss in detail what you are looking to accomplish with your brand.
+  <h4>PROGRAM DESCRIPTION</h4>
+  <ul>
+    <li>Timing based upon brand needs</li>
+    <li>Research and ROI analysis available</li>
+    <li>Category exclusivity; Right of first refusal</li>
+  </ul>
+  <br>
+
+  Niche Sampling can customize a program to meet your brands strategic plan.  Please contact us to discuss your brands objectives and strategies.
 </div>
 
 <?php include "footer.php"; ?>

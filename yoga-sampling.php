@@ -27,8 +27,7 @@ include "header.php";
   </ul>
   <br>
 
-  <img src="images/yoga-gift-pack.jpg" alt=""><br>
-  <br>
+  <img src="images/yoga-gift-pack.jpg" alt="" class="right">
 
   <h4>YOGA ENTHUSIAST DEMOGRAPHIC PROFILE</h4>
   <ul>

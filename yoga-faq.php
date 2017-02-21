@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$PageTitle = "Yoga Gift Pack FAQ";
+$PageTitle = "Yoga Program FAQ";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -32,22 +32,22 @@ include "header.php";
 
   <?php } else { ?>
   
-  <h3>YOGA GIFT PACK FAQ</h3>
+  <h3>YOGA PROGRAM FAQ</h3>
 
   <h4>WELCOME YOGA INSTRUCTORS</h4>
   Thank you for your interest in the Yoga Gift Pack. Here is a collection of Frequently Asked Questions about this program:<br>
   <br>
 
-  <strong>How much will the Yoga Gift Pack cost me?</strong><br>
-  There is no cost to you.  The gift packs are shipped to you completely free.<br>
+  <strong>How much will the Yoga Sampling Program cost me?</strong><br>
+  There is no cost to you. The samples are shipped to you completely free.<br>
   <br>
 
-  <strong>How can these Gift Packs be completely free?</strong><br>
-  The marketers who provide the samples for the gift packs fund them because they want to reach people who live a healthy lifestyle and are involved in yoga and pilates.<br>
+  <strong>How can these samples be completely free?</strong><br>
+  The marketers who provide the samples fund them because they want to reach people who live a healthy lifestyle and are involved in yoga and pilates.<br>
   <br>
 
   <strong>Why do you want all my information now?</strong><br>
-  It will guide in setting up the program and calculating how many Gift Packs to produce.<br>
+  It will guide in setting up the program and calculating how many samples to produce.<br>
   <br>
 
   <strong>What if any of my information changes? (address, teaching facility.)</strong><br>
@@ -58,28 +58,28 @@ include "header.php";
   We will email you with a reminder prior to the program start date to update your contact information.<br>
   <br>
 
-  <strong>When should I expect to see my Yoga Gift Packs?</strong><br>
-  The Gift Packs will be sent to your 'ship to' address in spring.<br>
+  <strong>When should I expect to see my samples?</strong><br>
+  The samples will be sent to your 'ship to' address as often as manufactures want to sample to your members.<br>
   <br>
 
   <strong>What will you use my contact information for?</strong><br>
-  We will only use your information to update you on the program, send you gift packs and reminder emails to sign up for the next time the program runs.<br>
+  We will only use your information to update you on the program, send you samples and reminder emails to sign up for the next time the program runs.<br>
   <br>
 
   <strong>Will you sell my contact information?</strong><br>
   No!<br>
   <br>
 
-  <strong>Who are the Gift Packs available to?</strong><br>
+  <strong>Who are the samples available to?</strong><br>
   They are available to Yoga and Pilates students.<br>
   <br>
 
-  <strong>I don't instruct Yoga, can I still receive the gift packs?</strong><br>
+  <strong>I don't instruct Yoga, can I still receive the samples?</strong><br>
   Absolutely, as long as you are an active Yoga or Pilates instructor.<br>
   <br>
 
   <strong>Why do you need to know how many students I instruct?</strong><br>
-  So we know how many Gift Packs to send to you.<br>
+  So we know how many samples to send to you.<br>
   <br>
 
   <strong>How do I calculate my total student enrollment?</strong><br>
@@ -95,11 +95,11 @@ include "header.php";
   Please follow instructions above; simply add the number of students enrolled in each specified class together for an overall total.<br>
   <br>
 
-  <strong>I teach more than just Yoga and Pilates classes, are those students eligible to receive these gift packs?</strong><br>
-  No, the gift packs are for Yoga and Pilates students only.<br>
+  <strong>I teach more than just Yoga and Pilates classes, are those students eligible to receive these samples?</strong><br>
+  No, the samples are for Yoga and Pilates students only.<br>
   <br>
 
-  <strong>Who can I contact to answer questions or to get more information about the Yoga Gift Pack?</strong><br>
+  <strong>Who can I contact to answer questions or to get more information about the Yoga Sampling Program?</strong><br>
   Call Niche Sampling Inc. at 414-276-5666 or email us at <?php email("yoga@nichesampling.com"); ?>.
 
   <?php } ?>

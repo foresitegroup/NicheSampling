@@ -264,11 +264,15 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .right {
   float: right;
   margin-left: 3%;
+  max-width: 50% !important;
+  height: auto;
 }
 
 .left {
   float: left;
   margin-right: 3%;
+  max-width: 50% !important;
+  height: auto;
 }
 
 .menu-top {
@@ -278,6 +282,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   font-size: 12px;
   text-align: right;
   border-bottom: 1px solid #E1E1E1;
+  position: relative;
 }
 
 .menu-top A {
@@ -290,6 +295,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   border: 4px solid #80E6EC;
   border-radius: 18px;
   padding: 0.85em 1em 0.6em 1.2em;
+  text-align: center;
 }
 
 .menu-top A:first-of-type {
@@ -304,7 +310,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .menu-top .social {
   float: right;
-  margin-top: 6px;
+  margin-top: 1em;
 }
 
 .menu-top .social A:link,
@@ -332,7 +338,9 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 }
 
 .menu-top .social A.facebook { background: #205B9F; }
+.menu-top .social A.twitter { background: #1DA1F2; }
 .menu-top .social A.pinterest { background: #EB1922; }
+.menu-top .social A.instagram { background: #8A3AB9; }
 .menu-top .social A.linkedin { background: #0074B5; }
 
 .menu-top .social A:hover,
@@ -360,7 +368,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   list-style-type: none;
   width: 66%;
   text-align: right;
-  font-family: 'Rubik One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1em;
   letter-spacing: 0.07em;
@@ -432,7 +440,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .nsi-header UL LI UL LI A:visited {
   color: #80E6EC;
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   text-decoration: none;
   text-transform: none;
   letter-spacing: 0;
@@ -609,13 +617,24 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   float: right;
   width: 38%;
   box-sizing: border-box;
-  padding: 1em 1% 1em 4.75%;
+  padding: 1em 2%;
   background: #80E6EC;
   color: #374E54;
   font-family: 'Rubik One', sans-serif;
   font-size: 30px;
   line-height: 1.8em;
-  /*text-indent: -1em;*/
+  text-align: center;
+}
+
+.home-right DIV {
+  font-size: 70%;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+}
+
+.home-right IMG {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer-spiffs {
@@ -704,7 +723,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   float: left;
   width: 50%;
   font-weight: 900;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1em;
   letter-spacing: 0.1em;
   color: #374E54;
@@ -1221,7 +1240,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 #contact-form H1 {
   margin: 0 0 0.25em;
   font-family: 'Rubik One', sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1em;
   letter-spacing: 0.02em;
   color: #2B898F;
@@ -1436,6 +1455,10 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     visibility: hidden;
     height: 0.25em;
   }
+
+  #contact-form H1 {
+    font-size: 3.1vw;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -1561,16 +1584,17 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     width: 90%;
   }
 
-  .home-right {
-    padding-left: 8.5%;
-  }
-
   .nsi-footer .address,
   .nsi-footer .footer-menu {
     float: none;
     width: 100%;
     text-align: center;
     padding: 0.75em 0;
+  }
+
+  .nsi-footer .footer-menu UL LI,
+  .nsi-footer .footer-menu UL LI:first-of-type {
+    margin: 0 4%;
   }
 
   .programs UL LI {
@@ -1610,6 +1634,10 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   .contact-sidebar {
     float: none;
     width: 100%;
+  }
+
+  #contact-form H1 {
+    font-size: 5.2vw;
   }
 
   .contact-sidebar .contacts DIV {
@@ -1767,7 +1795,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
   .home-right {
     font-size: 20px;
-    padding: 1em 0 1em 1.5em;
+    padding: 1em 5%;
   }
   
   #yoga-form #r-comm-addr + LABEL,
@@ -1834,6 +1862,10 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     display: block;
     visibility: hidden;
     height: 0.25em;
+  }
+
+  #contact-form H1 {
+    font-size: 5vw;
   }
 
   .contact-sidebar .contacts DIV,

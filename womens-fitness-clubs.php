@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$PageTitle = "Women's Fitness Clubs Sample Pack";
+$PageTitle = "Women's Health &amp; Fitness Sampling";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -17,15 +17,15 @@ include "header.php";
 </div>
 
 <div class="programs-sub">
-  <h3>WOMEN'S FITNESS CLUBS SAMPLE PACK</h3>
+  <h3>WOMEN'S HEALTH &amp; FITNESS SAMPLING</h3>
 
   <h4>PROGRAM DESCRIPTION</h4>
 
   <ul>
-    <li>The Women's Fitness Sample Packs are only for Women only Fitness Centers or Clubs that can distribute samples only to their female members.</li>
+    <li>The Women's Health &amp; Fitness Sampling Program are for Women only Fitness Centers or Clubs that can distribute samples only to their female members.</li>
     <li>We can only ship samples to valid business locations.</li>
-    <li>The Women's Fitness Sample Packs are only available in the United States.</li>
-    <li>If you have any questions about the Women's Fitness Sample Pack program, please <a href="womens-fitness-clubs-faq.php">visit our FAQ page</a>.</li>
+    <li>The Women's Health &amp; Fitness Sampling Program is only available in the United States.</li>
+    <li>If you have any questions about the Women's Health &amp; Fitness Sampling Program, please <a href="womens-fitness-clubs-faq.php">visit our FAQ page</a>.</li>
   </ul>
   <br>
   

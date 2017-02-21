@@ -27,11 +27,12 @@ include "header.php";
     <img src="images/brand-john-frieda.jpg" alt="John Frieda">
     <img src="images/brand-johnsons-baby.png" alt="Johnson's Baby">
     <img src="images/brand-lean-cuisine.png" alt="Lean Cuisine" class="wide">
+    <img src="images/client-loreal.png" alt="L'Oreal" class="wide">
     <img src="images/brand-luna.png" alt="Luna">
     <img src="images/brand-nivea.jpg" alt="Nivea">
     <img src="images/brand-pepperidge-farm.png" alt="Pepperidge Farm" class="wide">
     <img src="images/brand-propel.png" alt="Propel">
-    <img src="images/brand-quaker.png" alt="Quaker" class="tall">
+    <img src="images/brand-quaker.png" alt="Quaker">
     <img src="images/brand-scunci.png" alt="Scunci">
     <img src="images/brand-silk.png" alt="Silk">
     <img src="images/brand-skinny-cow.png" alt="Skinny Cow">

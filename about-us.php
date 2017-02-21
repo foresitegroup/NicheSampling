@@ -27,13 +27,13 @@ include "header.php";
   <strong><?php email("Phil@nichesampling.com"); ?></strong><br>
   <br>
 
-  As the founder and president of NSI, I have over 30 years of experience in marketing, advertising and brand management. Prior to receiving an MBA from the University of Wisconsin, Madison, I worked in New York as a media planner at SSC&amp;B (Lintas) and as an account executive at William Esty.<br>
+  As the founder and president of NSI, I have over 35 years of experience in marketing, advertising and brand management. Prior to receiving an MBA from the University of Wisconsin, Madison, I worked in New York as a media planner at SSC&amp;B (Lintas) and as an account executive at William Esty.<br>
   <br>
 
   Post MBA, I worked in Brand Management for ten years at Helene Curtis and S.C. Johnson and performed numerous consulting assignments for Bausch &amp; Lomb, the Hunter Group and The Center For New Product Development.<br>
   <br>
 
-  As a brand manager, sampling had always been my most effective &mdash; yet also my most expensive marketing initiative. As a result, our goal at NSI is to be the number one sampling company in efficiently and effectively reaching the heaviest users and most influential consumers.<br>
+  As a brand manager, sampling had always been my most effective &mdash; yet also my most expensive marketing initiative. Our goal at NSI is to be the number one sampling company in efficiently and effectively reaching the heaviest users and most influential consumers.<br>
   <br>
 
   <h3>Jennifer Schmitz<em>, Marketing Operations Manager</em></h3>
@@ -68,7 +68,7 @@ include "header.php";
     <img src="images/client-loreal.png" alt="L'Oreal" class="wide"><br>
     <br>
 
-    <a href="brands.php" class="brands">VIEW OUR BRANDS</a>
+    <a href="brands.php" class="brands">VIEW MORE BRANDS</a>
   </div>
 </div>
 

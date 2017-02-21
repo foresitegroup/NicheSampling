@@ -19,26 +19,18 @@ include "header.php";
 
   <h4>PROGRAM DESCRIPTION</h4>
   
+  <img src="images/sorority.jpg" alt="" class="right">
+  
   <ul>
-    <li>Up to 75,000 samples handed out to active, goal-oriented college sorority women ages 18-24.</li>
-    <li>Samples hand delivered by a chapter council member during group meetings</li>
+    <li>Up to 125,000 samples handed out to active, goal-oriented college sorority women ages 18-24</li>
+    <li>Samples hand delivered by a chapter council member during group meetings and/or rush</li>
     <li>Implied sorority endorsement</li>
     <li>Timing based upon brand needs</li>
-    <li>Solo distribution</li>
+    <li>Program runs throughout the school year</li>
   </ul>
   <br>
 
   Brands are pre-approved by the national offices for each sorority. Product samples are shipped in quantities to match local chapter membership. Food, beverage, and personal care brands are introduced in social, high word-of-mouth settings.<br>
-  <br>
-
-  <img src="images/sorority.jpg" alt=""><br>
-  <br>
-
-  <h4>KEY ELEMENTS</h4>
-  <ul>
-    <li>Program runs throughout the school year</li>
-    <li>Samples due based upon brand needs</li>
-  </ul>
   <br>
   <br>
 

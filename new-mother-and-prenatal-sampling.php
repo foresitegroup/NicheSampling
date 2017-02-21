@@ -18,8 +18,14 @@ include "header.php";
   <h3>NEW MOTHER SAMPLING</h3>
 
   <h4>PROGRAM DESCRIPTION</h4>
-  
+
   <img src="images/new-mother.jpg" alt="" class="right">
+
+  <ul>
+    <li>Up to 3 million annually</li>
+    <li>Timing: Year-round as desired</li>
+  </ul>
+  <br>
 
   Working with both of the leading brands of baby formula, new mothers can be reached with both product samples and/or promotional offers/coupons. Up to 250,000 per month new moms can be reached in a controlled environment with minimal waste year-round.<br>
   <br>
@@ -29,29 +35,21 @@ include "header.php";
 
   Participating brands receive the implied endorsement as this audience enters a new life stage.<br>
   <br>
+  <br>
+  <br>
 
-  <h4>KEY ELEMENTS</h4>
-  <ul>
-    <li>Up to 3 million annually</li>
-    <li>Timing: Year-round as desired</li>
-  </ul>
-  <br>
-  <br>
-  <br>
-  
   <img src="images/prenatal.jpg" alt="" class="right">
   <h3>PRENATAL SAMPLING</h3>
 
   <h4>PROGRAM DESCRIPTION</h4>
 
-  The leading formula brands' starter packs are distributed by OB/GYN offices nationwide to expectant moms. They offer the expecting parent informative literature and product samples delivered through a trusted source, their doctor. Inserts and samples can be placed in Enfamil's Changing Pad/Cosmetic Bag distributed in OB/GYN offices to 1MM expectant mothers annually.<br>
-  <br>
-
-  <h4>KEY ELEMENTS</h4>
   <ul>
     <li>Up to 1 million annually</li>
     <li>Timing: Year-round as desired</li>
   </ul>
+  <br>
+
+  The leading formula brands' starter packs are distributed by OB/GYN offices nationwide to expectant moms. They offer the expecting parent informative literature and product samples delivered through a trusted source, their doctor. Inserts and samples can be distributed in OB/GYN offices to 1MM expectant mothers annually.
 </div>
 
 <?php include "footer.php"; ?>
