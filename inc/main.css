@@ -723,7 +723,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .nsi-footer .address {
   float: left;
-  width: 50%;
+  width: 40%;
   font-weight: 900;
   font-size: 14px;
   line-height: 1em;
@@ -733,7 +733,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .nsi-footer .footer-menu {
   float: right;
-  width: 50%;
+  width: 60%;
   text-align: right;
 }
 
@@ -753,7 +753,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   margin-left: 8%;
 }
 
-.nsi-footer .footer-menu UL LI:first-of-type {
+.nsi-footer .footer-menu UL LI:nth-of-type(2) {
   margin-left: 0;
 }
 
@@ -1492,6 +1492,19 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     visibility: hidden;
   }
 
+  .nsi-footer .address,
+  .nsi-footer .footer-menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0.75em 0;
+  }
+
+  .nsi-footer .footer-menu UL LI,
+  .nsi-footer .footer-menu UL LI:nth-of-type(2) {
+    margin: 0 4%;
+  }
+
   #yoga-form,
   #womens-fitness-form {
     width: 100%;
@@ -1585,19 +1598,6 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
   .cycle-slideshow > DIV > DIV.first-slide {
     width: 90%;
-  }
-
-  .nsi-footer .address,
-  .nsi-footer .footer-menu {
-    float: none;
-    width: 100%;
-    text-align: center;
-    padding: 0.75em 0;
-  }
-
-  .nsi-footer .footer-menu UL LI,
-  .nsi-footer .footer-menu UL LI:first-of-type {
-    margin: 0 4%;
   }
 
   .programs UL LI {
