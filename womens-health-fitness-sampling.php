@@ -29,8 +29,11 @@ include "header.php";
 
   <img src="images/womens-fitness.jpg" alt="" class="right">
 
-  <h4>WOMEN'S HEALTH FITNESS MEMBER AUDIENCE COMPOSITION</h4>
-  The fitness member is an educated woman primarily 35+ years old with a mean HH income of $82M (US $61M). She is married with children and 65% are employed outside the home. She is heavily involved in fitness &amp; nutrition and cares about her health and appearance
+  <h4>WOMEN'S HEALTH &amp; FITNESS MEMBER AUDIENCE COMPOSITION</h4>
+  The fitness member is an educated woman primarily 35+ years old with a mean HH income of $82M (US $61M). She is married with children and 65% are employed outside the home. She is heavily involved in fitness &amp; nutrition and cares about her health and appearance.<br>
+  <br>
+
+  <a href="pdf/womens-health-and-fitness-sampling.pdf" class="printable">PRINTABLE VERSION</a>
 </div>
 
 <?php include "footer.php"; ?>

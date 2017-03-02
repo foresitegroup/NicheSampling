@@ -22,10 +22,10 @@ include "header.php";
   <h4>PROGRAM DESCRIPTION</h4>
 
   <ul>
-    <li>The Women's Health &amp; Fitness Sampling Program are for Women only Fitness Centers or Clubs that can distribute samples only to their female members.</li>
-    <li>We can only ship samples to valid business locations.</li>
-    <li>The Women's Health &amp; Fitness Sampling Program is only available in the United States.</li>
-    <li>If you have any questions about the Women's Health &amp; Fitness Sampling Program, please <a href="womens-fitness-clubs-faq.php">visit our FAQ page</a>.</li>
+    <li>The Women's Health &amp; Fitness Sampling Program are for Women only Fitness Centers or Clubs that can distribute samples only to their female members</li>
+    <li>We can only ship samples to valid business locations</li>
+    <li>The Women's Health &amp; Fitness Sampling Program is only available in the United States</li>
+    <li>If you have any questions about the Women's Health &amp; Fitness Sampling Program, please <a href="womens-fitness-clubs-faq.php">visit our FAQ page</a></li>
   </ul>
   <br>
   

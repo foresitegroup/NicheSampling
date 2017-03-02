@@ -35,7 +35,7 @@ include "header.php";
   <h3>YOGA PROGRAM FAQ</h3>
 
   <h4>WELCOME YOGA INSTRUCTORS</h4>
-  Thank you for your interest in the Yoga Gift Pack. Here is a collection of Frequently Asked Questions about this program:<br>
+  Thank you for your interest in the Yoga Sampling Program. Here is a collection of Frequently Asked Questions about this program:<br>
   <br>
 
   <strong>How much will the Yoga Sampling Program cost me?</strong><br>

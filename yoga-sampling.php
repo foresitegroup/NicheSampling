@@ -37,6 +37,10 @@ include "header.php";
     <li>80% are college educated; 21% have postgraduate degrees</li>
     <li>Yogis in the U.S. have a mean household income of $88,000 and a median income of $72,000; versus the total U.S. household has a mean income of $73,000 and a median income of $56,000</li>
   </ul>
+  <br>
+  <br>
+
+  <a href="pdf/yoga-sampling.pdf" class="printable">PRINTABLE VERSION</a>
 </div>
 
 <?php include "footer.php"; ?>

@@ -22,10 +22,10 @@ include "header.php";
   <h4>PROGRAM DESCRIPTION</h4>
 
   <ul>
-    <li>The Yoga Sampling Program are only for active Yoga and/or Pilates instructors.</li>
-    <li>Unfortunately, we can no longer ship to residential addresses; we can only accommodate shipping to valid business locations.</li>
-    <li>The Yoga Sampling Program is only available in the United States. We cannot ship to HI, AK or PR.</li>
-    <li>If you have any questions about the Yoga Sampling Program, please <a href="yoga-faq.php">visit our FAQ page</a>.</li>
+    <li>The Yoga Sampling Program are only for active Yoga and/or Pilates instructors</li>
+    <li>Unfortunately, we can no longer ship to residential addresses; we can only accommodate shipping to valid business locations</li>
+    <li>The Yoga Sampling Program is only available in the United States. We cannot ship to HI, AK or PR</li>
+    <li>If you have any questions about the Yoga Sampling Program, please <a href="yoga-faq.php">visit our FAQ page</a></li>
   </ul>
   <br>
 

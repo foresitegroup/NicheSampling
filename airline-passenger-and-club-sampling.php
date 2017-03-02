@@ -33,7 +33,7 @@ include "header.php";
   The Airline Passenger &amp; Club Sampling Program is a unique way to deliver your sample to airline passengers. Air travelers are an elusive, however very desirable, target market. Not only are they upscale and educated but they also lead active and busy lifestyles. It is a group that is open to trying new products that may enhance or simplify their hectic schedules. Reaching air travelers inflight is also a terrific way to ensure trial of your sampled product by a captive audience.<br>
   <br>
 
-  Airline Passenger &amp; Club Sampling are primarily:
+  Airline Sampling Program Passengers are primarily:
   <ul>
     <li>30+ years old</li>
     <li>Upscale professional</li>
@@ -42,7 +42,7 @@ include "header.php";
   <br>
   <br>
 
-  <a href="pdf/airline-passenger-sampling.pdf" class="printable">PRINTABLE VERSION</a>
+  <a href="pdf/airline-passenger-and-club-sampling.pdf" class="printable">PRINTABLE VERSION</a>
 </div>
 
 <?php include "footer.php"; ?>

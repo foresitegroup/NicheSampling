@@ -23,7 +23,7 @@ function email($address, $name="") {
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:500,700,900|Rubik+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
 
@@ -44,14 +44,14 @@ function email($address, $name="") {
 
     <div class="site-width">
       <div class="menu-top">
-        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMENS HEALTH &amp; FITNESS CLUBS<br>REGISTRATION</a>
-        <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTORS<br>REGISTRATION</a>
+        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMENS HEALTH &amp; FITNESS CLUB<br>REGISTRATION</a>
+        <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTOR<br>REGISTRATION</a>
 
         <div class="social">
           <a href="https://www.facebook.com/niche.sampling" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="https://twitter.com/NicheSampling" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <!-- <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
           <a href="https://www.linkedin.com/in/philgruber" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>

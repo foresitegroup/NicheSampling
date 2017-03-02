@@ -4,7 +4,6 @@ font-family: 'Roboto', sans-serif;
   500: Medium
   700: Bold
   900: Black
-font-family: 'Rubik One', sans-serif;
 
 #555555 - black
 #374E54 - dark gray
@@ -77,7 +76,8 @@ SELECT {
   padding: 0.1em 0;
   background: #FFFFFF;
   color: #252525;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
   -moz-appearance: none;
@@ -123,10 +123,11 @@ INPUT[type="submit"] {
   border: 0;
   border-radius: 15px;
   box-sizing: border-box;
-  padding: 1em 1.3em 0.8em 1.5em;
+  padding: 0.8em 1.3em 0.8em 1.5em;
   background: #80E6EC;
   color: #294A50;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 0.8em;
   letter-spacing: 0.2em;
@@ -181,7 +182,8 @@ FORM LABEL {
   position: relative;
   padding-left: 1em;
   color: #252525;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   line-height: 1.2em;
   margin-bottom: 1.7em;
@@ -226,7 +228,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .my-form-label {
   color: #252525;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   line-height: 1.2em;
   margin-top: 0.5em;
@@ -366,9 +369,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  width: 66%;
+  width: 75%;
   text-align: right;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1em;
   letter-spacing: 0.07em;
@@ -381,7 +383,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .nsi-header UL LI {
   display: inline-block;
-  margin-left: 8%;
+  margin-left: 5%;
   padding: 1em 0;
   text-transform: uppercase;
   position: relative;
@@ -439,7 +441,6 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .nsi-header UL LI UL LI A:link,
 .nsi-header UL LI UL LI A:visited {
   color: #80E6EC;
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-transform: none;
@@ -461,6 +462,10 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   position: relative;
 }
 
+.banner.banner-blog {
+  background-image: url(../images/banner-blog.jpg);
+}
+
 .banner:after {
   content: "";
   display: block;
@@ -475,7 +480,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   margin: 0;
   width: 100%;
   color: #FFFFFF;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
   font-size: 44px;
   letter-spacing: 0.1em;
   line-height: 1em;
@@ -539,7 +545,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   top: 50%;
   transform: translateY(-50%);
   color: #FFFFFF;
-  font-family: 'Rubik One', sans-serif;
+  /*font-family: 'Rubik One', sans-serif;*/
+  font-weight: 900;
   font-size: 4.9vw;
   line-height: 1.2em;
   letter-spacing: 0.1em;
@@ -578,17 +585,15 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .home-left {
   float: left;
   width: 57%;
-  font-weight: 900;
-  font-size: 23px;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 2em;
 }
 
 .home-left H1 {
-  /*margin: 0 0 0.25em;*/
   margin: 0;
-  font-family: 'Rubik One', sans-serif;
-  /*font-size: 44px;*/
-  font-size: 23px;
+  font-weight: 900;
+  font-size: 26px;
   line-height: 1em;
   display: inline;
 }
@@ -620,8 +625,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   padding: 1em 2%;
   background: #80E6EC;
   color: #374E54;
-  font-family: 'Rubik One', sans-serif;
-  font-size: 30px;
+  font-weight: 900;
+  font-size: 38px;
   line-height: 1.8em;
   text-align: center;
 }
@@ -629,7 +634,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .home-right DIV {
   font-size: 70%;
   line-height: 1.3em;
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .home-right IMG {
@@ -649,7 +654,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   padding: 1.5em 4.3%;
   background: #2B898F;
   color: #FFFFFF;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 33px;
   line-height: 1em;
 }
@@ -662,8 +667,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .footer-spiff A:visited {
   margin-top: 1.2em;
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1em;
   color: #80E6EC;
@@ -686,7 +690,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   text-align: center;
   background: #374E54;
   color: #FFFFFF;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 28px;
   line-height: 1em;
 }
@@ -698,7 +702,6 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .footer-contact .phone {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -706,7 +709,6 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .footer-contact A:visited {
   color: #FFFFFF;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -739,7 +741,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 12px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -801,7 +803,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .programs H3 {
   margin: 0 0 0.1em;
   color: #374E54;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 30px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -811,7 +813,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 15px;
   line-height: 1em;
 }
@@ -844,7 +846,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   padding: 1.3em;
   background: #374E54;
   color: #6ED1D7;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 20px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -880,8 +882,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .programs-sidebar .menu UL LI.programs-menu UL LI A:link,
 .programs-sidebar .menu UL LI.programs-menu UL LI A:visited {
   color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0;
   text-transform: none;
@@ -917,7 +918,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 .programs-sub H3 {
   margin: 0 0 0.5em;
   color: #374E54;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 38px;
   line-height: 1em;
   letter-spacing: 0.01em;
@@ -935,7 +936,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 }
 
 A.printable {
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 12px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -1002,7 +1003,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 .market-research H1 {
   margin: 1.3em 0 0.7em;
   color: #374E54;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 38px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -1084,7 +1085,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
 .about-intro H1 {
   margin: 0 0 0.3em;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -1098,7 +1099,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 .about H2,
 .brands H2 {
   margin: 1.5em 0 0.3em;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 38px;
   line-height: 1em;
   letter-spacing: 0.1em;
@@ -1106,7 +1107,6 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
 .about H3 {
   margin: 0 0 0.3em;
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 1em;
@@ -1190,7 +1190,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
 .distribution-text H2 {
   margin: 0 0 0.8em;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 38px;
   line-height: 1.1em;
   letter-spacing: 0.03em;
@@ -1218,7 +1218,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 #distribution-partners {
   margin-top: 3em;
   text-align: center;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 20px;
   line-height: 2em;
   color: #294A50;
@@ -1239,7 +1239,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
 #contact-form H1 {
   margin: 0 0 0.25em;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 38px;
   line-height: 1em;
   letter-spacing: 0.02em;
@@ -1289,7 +1289,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   padding: 2em;
   background: #294A50;
   color: #FFFFFF;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1em;
   text-align: center;
@@ -1297,7 +1297,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 
 .contact-address H2 {
   margin: 0 0 0.4em;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 30px;
   line-height: 1em;
   letter-spacing: 0.02em;
@@ -1344,7 +1344,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 .blog-content H2 {
   margin: 0 0 0.1em;
   color: #374E54;
-  font-family: 'Rubik One', sans-serif;
+  font-weight: 900;
   font-size: 50px;
   letter-spacing: 0.1em;
   line-height: 1em;
@@ -1422,7 +1422,6 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   }
 
   .nsi-header > UL {
-    width: 75%;
     right: 0;
   }
 
@@ -1468,8 +1467,12 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 }
 
 @media only screen and (max-width: 1024px) {
+  .nsi-header > UL {
+    width: 80%;
+  }
+
   .nsi-header UL LI {
-    margin-left: 6%;
+    margin-left: 4%;
   }
 
   .banner H2 {

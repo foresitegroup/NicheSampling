@@ -49,7 +49,10 @@ include "header.php";
   </ul>
   <br>
 
-  The leading formula brands' starter packs are distributed by OB/GYN offices nationwide to expectant moms. They offer the expecting parent informative literature and product samples delivered through a trusted source, their doctor. Inserts and samples can be distributed in OB/GYN offices to 1MM expectant mothers annually.
+  The leading formula brands' starter packs are distributed by OB/GYN offices nationwide to expectant moms. They offer the expecting parent informative literature and product samples delivered through a trusted source, their doctor. Inserts and samples can be distributed in OB/GYN offices to 1MM expectant mothers annually.<br>
+  <br>
+
+  <a href="pdf/new-mother-and-prenatal-sampling.pdf" class="printable">PRINTABLE VERSION</a>
 </div>
 
 <?php include "footer.php"; ?>

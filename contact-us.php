@@ -7,7 +7,7 @@ $FooterContact = "no";
 include "header.php";
 ?>
 
-<div class="banner"></div>
+<div class="banner" style="background-image: url(images/banner-contact.jpg);"></div>
 
 <script type="text/javascript">
   $(document).ready(function() {

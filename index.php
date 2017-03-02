@@ -53,7 +53,6 @@ include "header.php";
   Niche Sampling...<br>
   Celebrating 25 Years!
   <div>&ldquo;We're Doing <u>SAMPLING</u> Right&rdquo;</div>
-  <img src="images/home-roi.jpg" alt="">
 </div>
 
 <?php include "footer.php"; ?>
