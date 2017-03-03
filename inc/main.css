@@ -657,6 +657,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   font-weight: 900;
   font-size: 33px;
   line-height: 1em;
+  min-height: 191px;
 }
 
 .footer-spiff.last {
@@ -901,6 +902,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   width: 100%;
   font-size: 18px;
   padding: 1.5em;
+  min-height: 0;
 }
 
 .programs-sidebar .footer-spiff A,
@@ -1487,6 +1489,10 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     font-size: 26px;
   }
 
+  .footer-spiff {
+    min-height: 162px;
+  }
+
   .footer-contact SPAN:first-of-type {
     display: block;
     visibility: hidden;
@@ -1613,8 +1619,9 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     width: 100%;
   }
 
-  .footer-spiffs {
+  .footer-spiff {
     display: block;
+    min-height: 126px;
   }
 
   .about .clients IMG,

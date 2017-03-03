@@ -44,7 +44,7 @@ function email($address, $name="") {
 
     <div class="site-width">
       <div class="menu-top">
-        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMENS HEALTH &amp; FITNESS CLUB<br>REGISTRATION</a>
+        <a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">WOMEN'S HEALTH &amp; FITNESS CLUB<br>REGISTRATION</a>
         <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTOR<br>REGISTRATION</a>
 
         <div class="social">
