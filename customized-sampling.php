@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Customized Sampling";
+$Description = "Niche Sampling can customize a sampling program to meet your brands strategic plan.";
+$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, custom sampling programs, brand sampling programs, sampling brands company";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -16,7 +18,7 @@ include "header.php";
 
 <div class="programs-sub">
   <h3>CUSTOMIZED SAMPLING</h3>
-  
+
   <img src="images/customized-hat.png" alt="" class="right">
 
   <h4>PROGRAM DESCRIPTION</h4>
@@ -30,7 +32,7 @@ include "header.php";
   Niche Sampling can customize a program to meet your brands strategic plan.  Please contact us to discuss your brands objectives and strategies.<br>
   <br>
 
-  <img src="images/customized-sampling.jpg" alt=""><br>
+  <img src="images/customized-sampling.jpg" alt="Niche Sampling will customize a sampling program for your brands"><br>
   <br>
 
   <a href="pdf/customized-sampling.pdf" class="printable">PRINTABLE VERSION</a>

@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Airline Passenger &amp; Club Sampling";
+$Description = "The Airline Passenger & Club Sampling Program is a unique way Niche Sampling can deliver your sample to your desired lifestyle audience.";
+$Keywords = "Product sampling marketing, Sampling marketing, Passenger product sampling, lifestyle marketing, airline passenger marketing, club member marketing, passenger product sampling, club sampling programs";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -28,7 +30,7 @@ include "header.php";
   </ul>
   <br>
 
-  <img src="images/airline.jpg" alt="" class="right">
+  <img src="images/airline.jpg" alt="Niche Sampling has unique lifestyle sampling programs" class="right">
 
   The Airline Passenger &amp; Club Sampling Program is a unique way to deliver your sample to airline passengers. Air travelers are an elusive, however very desirable, target market. Not only are they upscale and educated but they also lead active and busy lifestyles. It is a group that is open to trying new products that may enhance or simplify their hectic schedules. Reaching air travelers inflight is also a terrific way to ensure trial of your sampled product by a captive audience.<br>
   <br>

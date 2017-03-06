@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Yoga Sampling";
+$Description = "Start reaching yoga and pilates enthusiasts. Niche Sampling has established sampling programs to reach yoga and pilate's students.";
+$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, yoga sampling marketing, pilates sampling marketing, yoga studio marketing";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -27,11 +29,11 @@ include "header.php";
   </ul>
   <br>
 
-  <img src="images/yoga-gift-pack.jpg" alt="" class="right">
+  <img src="images/yoga-gift-pack.jpg" alt="Niche Sampling has sampling programs to reach yoga and pilates students" class="right">
 
   <h4>YOGA ENTHUSIAST DEMOGRAPHIC PROFILE</h4>
   <ul>
-    <li>There are approximately over 36 million yoga enthusiasts — up from 20 million in 2012</li>
+    <li>There are approximately over 36 million yoga enthusiasts -- up from 20 million in 2012</li>
     <li>79% are 18-54 years old</li>
     <li>72% of yoga practitioners are women</li>
     <li>80% are college educated; 21% have postgraduate degrees</li>

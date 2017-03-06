@@ -1,6 +1,9 @@
 <?php
 if (!isset($TopDir)) $TopDir = "";
 
+if (!isset($Description)) $Description = "Niche Sampling Inc. distributes brand samples to reach the most influential consumers, creating the perfect marriages between brands, retailers, sample distribution venues, media and consumers.";
+if (!isset($Keywords)) $Keywords = "brand sampling, target sampling, sampling agency, market research, market study, marketing sampling, product marketing sampling, sampling in marketing, free samples marketing, product sampling, yoga marketing, yogafit, yoga fit, free product sampling, NSI, niche sampling";
+
 function email($address, $name="") {
   $email = "";
   for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
@@ -18,8 +21,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="Niche Sampling Inc. (NSI) distributes samples to reach the heaviest users and most influential consumers, creating the perfect marriages between brands, retailers, sample distribution venues, media and consumers.<?php if (isset($Description)) echo " " . $Description; ?>">
-    <meta name="keywords" content="brand awareness, yoga instructors, target sampling, target audience, nsi, market research, market study, niche sampling, nichesampling, market sampling, market sample, product samples, brand samples, sample distribution, shopper sampling, yoga, yogafit, yoga fit, curves, product sampling, product sampling programs<?php if (isset($Keywords)) echo ", " . $Keywords; ?>">
+    <meta name="description" content="<?php echo $Description; ?>">
+    <meta name="keywords" content="<?php echo $Keywords; ?>">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">

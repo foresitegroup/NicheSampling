@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Women's Health &amp; Fitness Sampling";
+$Description = "Reach women with women's health and woman's fitness programs. Niche Sampling provides unique, authentic solutions for talking directly with women.";
+$Keywords = "Product sampling marketing, Sampling marketing, sampling women products, women's health marketing, woman's fitness club marketing, fitness clubs marketing, health club sampling";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -27,7 +29,7 @@ include "header.php";
   </ul>
   <br>
 
-  <img src="images/womens-fitness.jpg" alt="" class="right">
+  <img src="images/womens-fitness.jpg" alt="Niche Sampling provides unique, authentic woman's health and woman's fitness product sampling" class="right">
 
   <h4>WOMEN'S HEALTH &amp; FITNESS MEMBER AUDIENCE COMPOSITION</h4>
   The fitness member is an educated woman primarily 35+ years old with a mean HH income of $82M (US $61M). She is married with children and 65% are employed outside the home. She is heavily involved in fitness &amp; nutrition and cares about her health and appearance.<br>

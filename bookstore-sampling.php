@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Bookstore Sampling";
+$Description = "Niche Sampling's college bookstore bag sampling program provides a unique and exclusive opportunity for brands to reach the elusive college student.";
+$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, college student sampling, college bookstore sampling, targeting student audience, product sampling in dorms, university sampling programs";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -19,7 +21,7 @@ include "header.php";
 
   <h4>PROGRAM DESCRIPTION</h4>
 
-  <img src="images/bookstore.jpg" alt="" class="right">
+  <img src="images/bookstore.jpg" alt="Niche Sampling college bookstore product sampling and student targeted sampling" class="right">
 
   <ul>
     <li>Samples due for Fall semester (August book rush), May</li>

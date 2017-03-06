@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Live Theater Sampling";
+$Description = "Niche Sampling offers targeted sampling through participating live theater, including Broadway. Ushers hand-deliver samples to your target consumer.";
+$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, sampling in theaters, theater sampling marketing, theater audience sampling, hand-deliver samples, broadway sampling marketing";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
@@ -28,7 +30,7 @@ include "header.php";
   This program offers targeted sampling through participating theaters across the country. They attract a target audience of upscale, educated and active adults who like to see and be seen. Ushers hand-deliver samples to your target consumer during intermission.<br>
   <br>
 
-  <img src="images/theater.jpg" alt="" class="right">
+  <img src="images/theater.jpg" alt="Niche Sampling hand-deliver product samples to your target consumer at live broadway shows and theater" class="right">
 
   Productions such as Jersey Boys, Hair, Wicked, 9 to 5, Rock of Ages, Shrek, Mary Poppins, Billy Elliot and many more are currently touring.<br>
   <br>
