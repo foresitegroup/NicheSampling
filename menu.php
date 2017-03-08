@@ -37,10 +37,10 @@
   <li class="mobile"><a href="<?php echo $TopDir; ?>womens-fitness-clubs.php">Womens Health &amp; Fitness Clubs Registration</a></li>
   <li class="mobile"><a href="<?php echo $TopDir; ?>yoga-sign-up.php">Yoga Instructors Registration</a></li>
   <li class="social">
-    <a href="https://www.facebook.com/niche.sampling"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/NSI.ProductSampling/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a href="https://twitter.com/NicheSampling" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-    <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/in/philgruber"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <!-- <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a> -->
+    <!-- <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+    <a href="https://www.linkedin.com/company/10952955"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
   </li>
 </ul>

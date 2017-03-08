@@ -557,6 +557,10 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   font-size: 83px;
 }
 
+.cycle-slideshow > DIV > DIV.bumpdown {
+  transform: translateY(-20%);
+}
+
 .cycle-slideshow > DIV > DIV.first-slide .bluetext {
   padding: 1em 0 2em;
   font-size: 21px;
@@ -580,6 +584,10 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   font-size: 15px;
   line-height: 1em;
   letter-spacing: 0.4em;
+}
+
+.cycle-slideshow > DIV > DIV.bumpdown .learnmore {
+  margin-top: 2em;
 }
 
 .home-left {

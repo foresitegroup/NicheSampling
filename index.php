@@ -34,8 +34,14 @@ include "header.php";
   </div>
 
   <div style="background-image: url(images/home-slider4.jpg);">
-    <div>
-      <div class="small">INDEPENDENT</div> <span class="bluetext">MARKET</span> RESEARCH
+    <div class="bumpdown">
+      <div class="small">
+        SAMPLING<br>
+        <span class="bluetext">CONVERSION</span><br>
+        TARGETING<br>
+        <span class="bluetext">TRIAL</span><br>
+        SHARE-GROWTH
+      </div>
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
     </div>

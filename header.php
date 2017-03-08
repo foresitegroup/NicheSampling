@@ -51,11 +51,11 @@ function email($address, $name="") {
         <a href="<?php echo $TopDir; ?>yoga-sign-up.php">YOGA INSTRUCTOR<br>REGISTRATION</a>
 
         <div class="social">
-          <a href="https://www.facebook.com/niche.sampling" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/NSI.ProductSampling/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="https://twitter.com/NicheSampling" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <!-- <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
           <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
-          <a href="https://www.linkedin.com/in/philgruber" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/10952955" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
 
