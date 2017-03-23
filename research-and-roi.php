@@ -3,15 +3,13 @@ $PageTitle = "Research &amp; ROI";
 include "header.php";
 ?>
 
-<div class="banner overlay" style="background-image: url(images/banner-roi.jpg);">
-  <h2>RESEARCH &amp; ROI</h2>
-</div>
+<div class="banner" style="background-image: url(images/banner-roi.jpg);"></div>
 
 <div class="market-research">
   Independent market research conducted by WBA Research is available for many of NSI's sampling programs.  The objective of the market research is to measure the impact of product sampling on awareness, usage and purchase behavior and build a brand specific ROI/payback model.<br>
   <br>
 
-  NSI utilizes a test versus control methodology 2-3 months after distribution. The test group is composed of target audience sample recipients. The control group is comprised of target audience members who did not receive a sample. WBA &amp; NSI provide a research report on individual brand performance including ROI and a proprietary payback analysis.<br>
+  NSI utilizes a test versus control research methodology 2-3 months after distribution. The test group is composed of target audience sample recipients. The control group is comprised of target audience members who did not receive a sample. WBA &amp; NSI provide a research report on individual brand performance including ROI and a proprietary payback analysis.<br>
   <br>
   <br>
 

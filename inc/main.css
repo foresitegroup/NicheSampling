@@ -263,6 +263,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 }
 
 .bluetext { color: #80E6EC; }
+.greentext { color: #2B898F; }
 
 .right {
   float: right;
@@ -295,7 +296,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   line-height: 1em;
   letter-spacing: 0.2em;
   margin-left: 1em;
-  border: 4px solid #80E6EC;
+  border: 4px solid #2B898F;
   border-radius: 18px;
   padding: 0.85em 1em 0.6em 1.2em;
   text-align: center;
@@ -307,8 +308,8 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
 
 .menu-top A:hover,
 .menu-top A:active {
-  color: #2B898F;
-  border-color: #2B898F;
+  color: #80E6EC;
+  border-color: #80E6EC;
 }
 
 .menu-top .social {
@@ -404,6 +405,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   text-decoration: none;
 }
 
+.nsi-header > UL > LI > A.current,
 .nsi-header > UL > LI:hover > A {
   border-bottom: 4px solid #80E6EC;
 }
@@ -561,7 +563,7 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   transform: translateY(-20%);
 }
 
-.cycle-slideshow > DIV > DIV.first-slide .bluetext {
+.cycle-slideshow > DIV > DIV.first-slide .greentext {
   padding: 1em 0 2em;
   font-size: 21px;
   line-height: 1em;
@@ -631,18 +633,24 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   width: 38%;
   box-sizing: border-box;
   padding: 1em 2%;
-  background: #80E6EC;
-  color: #374E54;
+  background: #2B898F;
+  color: #000000;
   font-weight: 900;
   font-size: 38px;
   line-height: 1.8em;
   text-align: center;
+  font-style: italic;
 }
 
 .home-right DIV {
   font-size: 70%;
   line-height: 1.3em;
   margin-top: 1em;
+  font-style: normal;
+}
+
+.home-right DIV U {
+  color: #FFFFFF;
 }
 
 .home-right IMG {
@@ -809,40 +817,51 @@ FORM INPUT[type="radio"]:checked + LABEL:after {
   line-height: 1.4em;
 }
 
-.programs H3 {
-  margin: 0 0 0.1em;
-  color: #374E54;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 1em;
-  letter-spacing: 0.1em;
-}
-
 .programs UL {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 1em;
-}
-
-.programs UL LI {
-  float: left;
-  width: 33.33%;
   text-align: center;
-  padding: 1em 0;
-  height: 2em;
-  position: relative;
 }
 
-.programs UL LI A {
+.programs > UL > LI {
+  display: none;
+}
+
+.programs UL LI.programs-menu {
+  display: block;
+}
+
+.programs UL LI.programs-menu > A {
+  display: none;
+}
+
+.programs UL LI.programs-menu UL LI {
+  margin: 0 2em;
+  padding: 0.2em 0;
+  display: inline-block;
+}
+
+.programs UL LI.programs-menu UL LI.menu-header {
+  padding-top: 1.5em;
+}
+
+.programs UL LI.programs-menu UL LI.first-menu-header,
+.programs UL LI.programs-menu UL LI.menu-header {
+  display: block;
+  text-transform: uppercase;
+  color: #374E54;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.programs UL LI.programs-menu UL LI A:link,
+.programs UL LI.programs-menu UL LI A:visited {
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-transform: none;
   text-decoration: none;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  width: 100%;
 }
 
 .programs-sidebar {
@@ -1087,8 +1106,8 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 .about-intro {
   margin: 1.8em 0;
   padding: 2em;
-  background: #80E6EC;
-  color: #3F666C;
+  background: #2B898F;
+  color: #000000;
   font-size: 23px;
   line-height: 1.6em;
 }
@@ -1269,7 +1288,8 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
 .contact-sidebar .contacts {
   padding: 2em 3em;
   box-sizing: border-box;
-  background: #80E6EC;
+  background: #2B898F;
+  color: #000000;
   line-height: 1.5em;
 }
 
@@ -1281,17 +1301,17 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
   font-weight: 900;
   font-size: 18px;
   text-transform: uppercase;
-  color: #04494C;
+  color: #FFFFFF;
 }
 
 .contact-sidebar .contacts A:link,
 .contact-sidebar .contacts A:visited {
-  color: #04494C;
+  color: #80E6EC;
 }
 
 .contact-sidebar .contacts A:hover,
 .contact-sidebar .contacts A:active {
-  color: #2B898F;
+  color: #FFFFFF;
 }
 
 .contact-address {
@@ -1709,7 +1729,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     line-height: 1em;
   }
 
-  .cycle-slideshow > DIV > DIV.first-slide .bluetext {
+  .cycle-slideshow > DIV > DIV.first-slide .greentext {
     padding: 1em 0 0;
     line-height: 1.2em;
   }
@@ -1807,7 +1827,7 @@ INPUT[type="checkbox"]#r-agree + LABEL:after {
     line-height: 1em;
   }
 
-  .cycle-slideshow > DIV > DIV.first-slide .bluetext {
+  .cycle-slideshow > DIV > DIV.first-slide .greentext {
     font-size: 14px;
   }
 

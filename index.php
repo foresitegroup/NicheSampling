@@ -11,7 +11,7 @@ include "header.php";
     <div class="first-slide">
       NICHE SAMPLING
 
-      <div class="bluetext">TARGETED SAMPLING PROGRAMS</div>
+      <div class="greentext">TARGETED SAMPLING PROGRAMS</div>
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
     </div>
@@ -19,7 +19,7 @@ include "header.php";
 
   <div style="background-image: url(images/home-slider2.jpg);">
     <div>
-      <div class="smaller">INFLUENTIAL</div> <span class="bluetext">HEAVY</span> USERS
+      <div class="smaller">INFLUENTIAL</div> <span class="greentext">HEAVY</span> USERS
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
     </div>
@@ -27,7 +27,7 @@ include "header.php";
 
   <div style="background-image: url(images/home-slider3.jpg);">
     <div>
-      <div class="small">TIGHT SAMPLE</div> <span class="bluetext">DELIVERY</span> CONTROL
+      <div class="small">TIGHT SAMPLE</div> <span class="greentext">DELIVERY</span> CONTROL
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>
     </div>
@@ -37,10 +37,10 @@ include "header.php";
     <div class="bumpdown">
       <div class="small">
         SAMPLING<br>
-        <span class="bluetext">CONVERSION</span><br>
+        <span class="greentext">CONVERSION</span><br>
         TARGETING<br>
-        <span class="bluetext">TRIAL</span><br>
-        SHARE-GROWTH
+        <span class="greentext">TRIAL</span><br>
+        SHARE GROWTH
       </div>
 
       <div class="learnmore">LEARN MORE <i class="fa fa-arrow-down" aria-hidden="true"></i></div>

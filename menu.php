@@ -3,7 +3,7 @@
   <li class="programs-menu">
     <a href="<?php echo $TopDir; ?>programs.php">Programs</a>
     <ul>
-      <li>Health &amp; Fitness</li>
+      <li class="first-menu-header">Health &amp; Fitness</li>
       <li><a href="<?php echo $TopDir; ?>womens-health-fitness-sampling.php">Women's Health &amp; Fitness Sampling</a></li>
       <li><a href="<?php echo $TopDir; ?>yoga-sampling.php">Yoga Sampling</a></li>
 
@@ -25,10 +25,10 @@
     </ul>
   </li>
   <li><a href="<?php echo $TopDir; ?>research-and-roi.php">Research &amp; ROI</a></li>
-  <li>
+  <li class="blog">
     <a href="<?php echo $TopDir; ?>blog/category/news-and-insights/">News &amp; Insights</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>blog/category/news-and-insights/">NSI News &amp; Insights</a></li>
+      <li><a href="<?php echo $TopDir; ?>blog/category/news-and-insights/">Product Sampling Trends &amp; Insights</a></li>
       <li><a href="<?php echo $TopDir; ?>blog/category/health-and-wellness-living-room/">Health &amp; Wellness Living Room</a></li>
     </ul>
   </li>

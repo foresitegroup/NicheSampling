@@ -5,16 +5,18 @@ $Keywords = "Product sampling marketing, Sampling marketing, Product sampling, h
 include "header.php";
 ?>
 
-<div class="banner overlay">
-  <h2>NSI PRODUCT SAMPLING PROGRAMS</h2>
-</div>
+<div class="banner"></div>
 
 <div class="copybox">
   Niche Sampling has created several sampling programs covering different age, gender and lifestyle consumer profiles.
 </div>
 
 <div class="programs">
-  <h3>ADULT PRODUCT SAMPLING PROGRAMS</h3>
+  <?php include "menu.php"; ?>
+
+
+  
+<!--   <h3>ADULT PRODUCT SAMPLING PROGRAMS</h3>
   Targeting women interested in fitness and nutrition, travelers, theater &amp; music patrons and new mothers.<br>
   <br>
 
@@ -40,7 +42,7 @@ include "header.php";
   <ul>
     <li><a href="bookstore-sampling.php">Bookstore Sampling</a></li>
     <li><a href="sorority-sampling.php">Sorority Sampling</a></li>
-  </ul>
+  </ul> -->
 </div>
 
 <?php include "footer.php"; ?>

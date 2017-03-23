@@ -34,11 +34,20 @@ function email($address, $name="") {
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
+        
+        $(".nsi-header LI [href]").each(function() {
+          if (this.href == window.location.href) {
+            $(this).addClass("current");
+          }
+        });
+
+        <?php if ($TopDir != "") echo "$('.nsi-header LI.blog A').addClass('current');"; ?>
 
         $(".programs-sidebar [href]").each(function() {
-        if (this.href == window.location.href) {
-          $(this).addClass("current");
-        }
+          if (this.href == window.location.href) {
+            $(this).addClass("current");
+            $(".nsi-header LI.programs-menu A").addClass("current");
+          }
         });
       });
     </script>
