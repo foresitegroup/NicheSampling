@@ -7,3 +7,4 @@ blog/wp-content/*
 blog/wp-content/themes/*
 !blog/wp-content/themes/nichesampling
 blog/wp-content/themes/nichesampling/.DS_Store
+admin/inc/PHPExcel*
