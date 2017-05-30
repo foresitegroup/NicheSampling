@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Customized Sampling";
 $Description = "Niche Sampling can customize a sampling program to meet your brands strategic plan.";
-$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, custom sampling programs, brand sampling programs, sampling brands company";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Product sampling, custom sampling programs, brand sampling programs, sampling brands company";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

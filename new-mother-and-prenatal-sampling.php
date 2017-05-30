@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "New Mother &amp; Prenatal Sampling";
 $Description = "Up to 250,000 new moms per month can be reached with Niche Sampling’s new mom and prenatal programs. Working with leading brands of baby formula, new mothers can be reached with both product samples and/or promotional offers/coupons.";
-$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, New mom sampling marketing, prenatal sampling, sampling expectant mothers, marketing to new mothers";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Product sampling, New mom sampling marketing, prenatal sampling, sampling expectant mothers, marketing to new mothers";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

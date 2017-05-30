@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Live Theater Sampling";
 $Description = "Niche Sampling offers targeted sampling through participating live theater, including Broadway. Ushers hand-deliver samples to your target consumer.";
-$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, sampling in theaters, theater sampling marketing, theater audience sampling, hand-deliver samples, broadway sampling marketing";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Product sampling, sampling in theaters, theater sampling marketing, theater audience sampling, hand-deliver samples, broadway sampling marketing";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Women's Health &amp; Fitness Sampling";
 $Description = "Reach women with women's health and woman's fitness programs. Niche Sampling provides unique, authentic solutions for talking directly with women.";
-$Keywords = "Product sampling marketing, Sampling marketing, sampling women products, women's health marketing, woman's fitness club marketing, fitness clubs marketing, health club sampling";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, sampling women products, women's health marketing, woman's fitness club marketing, fitness clubs marketing, health club sampling";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

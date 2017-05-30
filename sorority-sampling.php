@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Sorority Sampling";
 $Description = "Using only pre-approved brands, Niche Sampling ships sample products in quantities to match local sorority chapter memberships. Food, beverage, and personal care brands are introduced in social, high word-of-mouth settings.";
-$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, sorority student sampling, college student sampling, college dorm sampling, student audience marketing, student product sampling, sorority sampling programs";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Product sampling, sorority student sampling, college student sampling, college dorm sampling, student audience marketing, student product sampling, sorority sampling programs";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

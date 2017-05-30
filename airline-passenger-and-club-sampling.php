@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Airline Passenger &amp; Club Sampling";
 $Description = "The Airline Passenger & Club Sampling Program is a unique way Niche Sampling can deliver your sample to your desired lifestyle audience.";
-$Keywords = "Product sampling marketing, Sampling marketing, Passenger product sampling, lifestyle marketing, airline passenger marketing, club member marketing, passenger product sampling, club sampling programs";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Passenger product sampling, lifestyle marketing, airline passenger marketing, club member marketing, passenger product sampling, club sampling programs";
 $FooterSpiffs = "no";
 include "header.php";
 ?>

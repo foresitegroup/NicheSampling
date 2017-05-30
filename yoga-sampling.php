@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Yoga Sampling";
 $Description = "Start reaching yoga and pilates enthusiasts. Niche Sampling has established sampling programs to reach yoga and pilate's students.";
-$Keywords = "Product sampling marketing, Sampling marketing, Product sampling, yoga sampling marketing, pilates sampling marketing, yoga studio marketing";
+$Keywords = "Product Sampling Programs, Product sampling marketing, Sampling marketing, Product sampling, yoga sampling marketing, pilates sampling marketing, yoga studio marketing";
 $FooterSpiffs = "no";
 include "header.php";
 ?>
