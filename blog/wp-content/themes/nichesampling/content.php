@@ -32,7 +32,7 @@ if ( is_single() ) { ?>
 
 			<div class="date"><?php echo get_the_date(); ?></div>
 
-			<?php echo get_the_excerpt(); ?><br>
+			<?php echo wp_trim_excerpt(); ?><br>
 
 			<a href="<?php the_permalink(); ?>" class="readmore">READ MORE</a>
 		</div>

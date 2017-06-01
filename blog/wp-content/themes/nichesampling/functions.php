@@ -49,34 +49,14 @@ add_filter('next_post_link', 'post_link_attributes_next');
 function post_link_attributes_prev($output) { return str_replace('<a href=', '<a class="prev" href=', $output); }
 function post_link_attributes_next($output) { return str_replace('<a href=', '<a class="next" href=', $output); }
 
-
-// Set length of blog index except
-function wpdocs_custom_excerpt_length( $length ) {
-  return 300;
-}
-add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
-
-// Break excerpt at sentence end
-function end_with_sentence( $excerpt ) {
-  $allowed_ends = array('.', '!', '?', '...');
-  $number_sentences = 2;
-  $excerpt_chunk = $excerpt;
-
-  for($i = 0; $i < $number_sentences; $i++){
-    $lowest_sentence_end[$i] = 100000000000000000;
-    foreach($allowed_ends as $allowed_end) {
-      $sentence_end = strpos( $excerpt_chunk, $allowed_end);
-      if ($sentence_end !== false && $sentence_end < $lowest_sentence_end[$i]) {
-        $lowest_sentence_end[$i] = $sentence_end + strlen( $allowed_end );
-      }
-      $sentence_end = false;
-    }
-
-    $sentences[$i] = substr( $excerpt_chunk, 0, $lowest_sentence_end[$i]);
-    $excerpt_chunk = substr( $excerpt_chunk, $lowest_sentence_end[$i]);
+// Set excerpt to first paragraph
+function paragraph_excerpt($text, $raw_excerpt) {
+  if( ! $raw_excerpt ) {
+    $content = apply_filters( 'the_content', get_the_content() );
+    $text = substr( $content, 0, strpos( $content, '</p>' ) + 4 );
   }
-
-  return implode('', $sentences);
+  $text = preg_replace("/<img[^>]+\>/i", "", $text); 
+  return $text;
 }
-add_filter('get_the_excerpt', 'end_with_sentence');
+add_filter( 'wp_trim_excerpt', 'paragraph_excerpt', 10, 2 );
 ?>
