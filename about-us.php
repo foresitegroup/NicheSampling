@@ -35,6 +35,18 @@ include "header.php";
 
   As a brand manager, sampling had always been my most effective &mdash; yet also my most expensive marketing initiative. Our goal at NSI is to be the number one sampling company in efficiently and effectively reaching the heaviest users and most influential consumers.<br>
   <br>
+  <br>
+
+  <h3>Christie Jazwiecki<em>, National Account Manager</em></h3>
+  <strong><?php email("Christie@nichesampling.com"); ?></strong><br>
+  <br>
+
+  I work with clients to identify brand growth opportunities and find the appropriate program and sampling distribution that supports their overall marketing objectives.<br>
+  <br>
+
+  I have over 5 years of experience in an agency setting, where I worked closely with regional and national brands on their marketing and advertising programs.  I attended the University of Wisconsin - Whitewater and graduated with a Bachelor of Science degree in Business Administration.<br>
+  <br>
+  <br>
 
   <h3>Jennifer Schmitz<em>, Marketing Operations Manager</em></h3>
   <strong><?php email("Jennifer@nichesampling.com"); ?></strong><br>
