@@ -87,6 +87,9 @@ unset($_SESSION['feedback']);
     <div class="my-form-label">REQUEST/COMMENT</div>
     <textarea name="<?php echo md5("comment" . $ip . $salt . $timestamp); ?>" id="comment"></textarea>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <div class="g-recaptcha" data-sitekey="6LfuqGMUAAAAABmwTBt0I9Iu6giedEtud3vraHn5"></div>
+
     <input type="hidden" name="referrer" value="contact-us.php">
 
     <input type="text" name="confirmationCAP" style="display: none;">
