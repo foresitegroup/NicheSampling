@@ -52,7 +52,7 @@ function email($address, $name="") {
       });
     </script>
 
-    <!-- BEGIN Google Analytics -->
+    <!-- BEGIN Google Analytics - THIS WILL STOP WORKING JULY 1, 2023 -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-28497665-1']);
@@ -64,6 +64,15 @@ function email($address, $name="") {
       })();
     </script>
     <!-- END Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3ZZLX61B7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W3ZZLX61B7');
+    </script>
   </head>
   <body>
 
