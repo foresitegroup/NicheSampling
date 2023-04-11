@@ -58,7 +58,7 @@ include "header.php";
 
 <div class="home-right">
   Niche Sampling...<br>
-  Celebrating 25 Years!
+  Celebrating 30 Years!
   <div>&ldquo;We're Doing <u>SAMPLING</u> Right&rdquo;</div>
 </div>
 
